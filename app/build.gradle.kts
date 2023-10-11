@@ -51,6 +51,8 @@ android {
 
 dependencies {
 
+    val lifecycle_version = "2.6.2"
+
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation("androidx.activity:activity-compose:1.7.2")
@@ -74,6 +76,19 @@ dependencies {
     annotationProcessor ("com.google.dagger:dagger-compiler:2.13")
 
     // retrofit
-    implementation ("com.google.dagger:dagger:2.13")
-    annotationProcessor ("com.google.dagger:dagger-compiler:2.13")
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.5.0")
+
+    //co-routines
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+
+    //lifecycle
+    // ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
+    // LiveData
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
+
+
 }
