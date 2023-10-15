@@ -9,7 +9,7 @@ class RetrofitInstance {
     companion object{
         private const val  baseUrl = "https://jsonplaceholder.typicode.com"
 
-        fun getRetrofitInstance() : Retrofit{
+        fun getRetrofitInstance() : Retrofit {
 
             return Retrofit.Builder()
                 .baseUrl(baseUrl)

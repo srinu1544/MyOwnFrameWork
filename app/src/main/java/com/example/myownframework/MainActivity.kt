@@ -1,6 +1,7 @@
 package com.example.myownframework
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -22,10 +23,9 @@ import retrofit2.Retrofit
 class MainActivity : ComponentActivity() {
 
     private lateinit var viewModel: UserViewModel
+    var result : String = "" 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-
         setContent {
             MyOwnFrameWorkTheme {
                 // A surface container using the 'background' color from the theme
@@ -41,9 +41,9 @@ class MainActivity : ComponentActivity() {
 
                     viewModel.getAllUsers() //this method is needed to add our "users" since we are observing the value below
                     viewModel.users.observe(this){
-                     println(it.size.toString())
+                        result = it.toString()
                     }
-                    Greeting("Android")
+                     Greeting(name = result)
                 }
             }
         }
