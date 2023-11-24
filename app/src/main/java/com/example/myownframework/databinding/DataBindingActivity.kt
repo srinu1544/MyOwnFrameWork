@@ -14,7 +14,6 @@ class DataBindingActivity : AppCompatActivity() {
     lateinit var viewModel: ViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //setContentView(R.layout.activity_data_binding)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_data_binding)
         viewModel = ViewModelProvider(this).get(ViewModel::class.java)
         binding.viewmodel = viewModel
@@ -22,8 +21,7 @@ class DataBindingActivity : AppCompatActivity() {
 
         binding.mcontext = this
 
-        viewModel.imageUrl.value = "https://www.google.com/search?sca_esv=573619808&rlz=1C1CHBF_enIN1066IN1068&sxsrf=AM9HkKlN2Zja8hlcO7ZgpoYNrSgATStXHA:1697387421988&q=images&tbm=isch&source=lnms&sa=X&ved=2ahUKEwidrdXyvPiBAxUGQt4KHZRYCikQ0pQJegQICRAB&biw=1280&bih=563&dpr=1.5#imgrc=fY9reP86COngJM"
-
+        viewModel.imageUrl.value = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F1146517111%2Fphoto%2Ftaj-mahal-mausoleum-in-agra.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DvcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk%3D&tbnid=O5RXpwJLOupVkM&vet=12ahUKEwiV86qZ3PmBAxUUQWwGHRCICaUQMygJegUIARCIAQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Findia&docid=LOFnE7wghBVyxM&w=612&h=411&q=images&ved=2ahUKEwiV86qZ3PmBAxUUQWwGHRCICaUQMygJegUIARCIAQ"
 
         viewModel.editText.observe(this, Observer {
             Log.d("textwatcher",it)
@@ -31,8 +29,6 @@ class DataBindingActivity : AppCompatActivity() {
 
         viewModel.name.value = "srinivas"
         viewModel.btnText.value = "Ok"
-
-
 
     }
 }

@@ -14,53 +14,45 @@
     </data>
 
 
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".databinding.DataBindingActivity">
 
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            app:imageUrl="@{viewmodel.imageUrl}"
-            app:context="@{mcontext}"
-            app:layout_constraintTop_toBottomOf="parent">
-
-        </ImageView>
 
 
         <TextView
+            android:id="@+id/textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{viewmodel.name,default=sai}"
             android:textSize="50sp"
-            android:id="@+id/textview"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.5"></TextView>
+            app:layout_constraintVertical_bias="0.585"></TextView>
 
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            app:layout_constraintBottom_toTopOf="@+id/textview"
+            android:layout_height="50dp"
             android:layout_margin="10dp"
+            android:layout_marginBottom="72dp"
             android:hint="Please Enter Mail"
+            android:inputType="text"
             android:text="@={viewmodel.editText}"
-            ></EditText>
-
+            app:layout_constraintBottom_toTopOf="@+id/textview"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            tools:layout_editor_absoluteX="9dp"></EditText>
 
         <Button
-            android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{viewmodel::onClick}"
             android:text="@{viewmodel.btnText}"
-            android:onClick="@{viewmodel::onClick}">
+            app:layout_constraintBottom_toBottomOf="parent">
 
         </Button>
 

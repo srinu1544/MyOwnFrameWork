@@ -36,12 +36,6 @@ class ViewModel : ViewModel() {
 
     }*/
 
-
-
-
-
-
-
     fun onClick(view : View){
         name.value = "sai srinivas"
         btnText.value = "Done"

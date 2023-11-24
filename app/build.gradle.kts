@@ -68,9 +68,13 @@ android {
 dependencies {
 
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
     androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
 
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
     val lifecycle_version = "2.6.2"
 
     implementation("androidx.core:core-ktx:1.9.0")
@@ -91,9 +95,6 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
-    // dagger
-    implementation ("com.google.dagger:dagger:2.13")
-    annotationProcessor ("com.google.dagger:dagger-compiler:2.13")
 
     // retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
@@ -124,6 +125,9 @@ dependencies {
     //glide
     implementation ("com.github.bumptech.glide:glide:4.12.0")
     annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
+
+    //coil
+    implementation("io.coil-kt:coil:2.4.0")
 
 
 
