@@ -5,4 +5,11 @@
     <string name="title_activity_nav_compose">NavCompose</string>
     <string name="title_activity_coil_image">coil_image</string>
     <string name="title_activity_gradiant_buttons">GradiantButtons</string>
+    <string name="title_activity_content_provider_ex">ContentProviderEX</string>
+    <string name="title_activity_demo">Demo</string>
+    <string name="title_activity_configuration_changes">Configuration_changes</string>
+    <string name="title_activity_permissions">permissions</string>
+    <string name="title_activity_camera_x">CameraX</string>
+    <string name="title_activity_multiple_back_stack">MultipleBackStack</string>
+    <string name="title_activity_compose">Compose</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.myownframework.compose_navigation.ui.theme
+package com.example.myownframework.contentProviders.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -64,6 +64,7 @@ fun MyOwnFrameWorkTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
+        typography = Typography,
         content = content
     )
 }

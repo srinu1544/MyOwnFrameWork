@@ -9,6 +9,7 @@ import com.bumptech.glide.Glide
 import java.security.interfaces.RSAPrivateKey
 
 /*
+
 @BindingAdapter("app:textwatcher")
 fun watcher(view : EditText,textWatcher: TextWatcher) {
 

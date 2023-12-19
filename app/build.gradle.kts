@@ -70,9 +70,23 @@ dependencies {
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
     implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
     androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
 
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
     androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
     androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
     val lifecycle_version = "2.6.2"
@@ -108,6 +122,8 @@ dependencies {
     //lifecycle
     // ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
+    //viewmodel compose
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
     // LiveData
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
 
@@ -126,10 +142,29 @@ dependencies {
     implementation ("com.github.bumptech.glide:glide:4.12.0")
     annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
 
-    //coil
-    implementation("io.coil-kt:coil:2.4.0")
+    implementation ("io.coil-kt:coil-compose:2.4.0")
+
+    //implementation ("androidx.compose-material:material-icons-extended:1.5.1")
 
 
+    //RxJava and RxAndroid
+    implementation ("io.reactivex.rxjava3:rxandroid:3.0.2")
+    // Because RxAndroid releases are few and far between, it is recommended you also
+    // explicitly depend on RxJava's latest version for bug fixes and new features.
+    // (see https://github.com/ReactiveX/RxJava/releases for latest 3.x.x version)
+    implementation ("io.reactivex.rxjava3:rxjava:3.1.5")
+
+
+    //camerax
+    val cameraVersion  = "1.3.1"
+
+    implementation ("androidx.camera:camera-core:$cameraVersion")
+    implementation ("androidx.camera:camera-camera2:$cameraVersion")
+    implementation ("androidx.camera:camera-lifecycle:$cameraVersion")
+    implementation ("androidx.camera:camera-video:$cameraVersion")
+
+    implementation ("androidx.camera:camera-view:$cameraVersion")
+    implementation ("androidx.camera:camera-extensions:$cameraVersion")
 
 
 }
