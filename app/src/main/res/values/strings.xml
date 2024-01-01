@@ -12,4 +12,11 @@
     <string name="title_activity_camera_x">CameraX</string>
     <string name="title_activity_multiple_back_stack">MultipleBackStack</string>
     <string name="title_activity_compose">Compose</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_paging_ex">PagingEx</string>
+    <string name="title_activity_data_store">DataStore</string>
+    <string name="title_activity_flow_ex">FlowEx</string>
+    <string name="title_activity_live_data_ex">LiveDataEx</string>
+    <string name="title_activity_permissions_compose">PermissionsCompose</string>
+    <string name="title_activity_side_effects">SideEffects</string>
 </resources>

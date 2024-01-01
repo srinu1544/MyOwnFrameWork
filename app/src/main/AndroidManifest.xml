@@ -2,6 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
     <uses-feature
         android:name="android.hardware.camera"
         android:required="false" />
@@ -14,6 +22,7 @@
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
 
     <application
+        android:name=".Kotlin_Android.Notifications.MyApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -25,79 +34,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".compose_examples.Compose"
+            android:name=".Kotlin_Android.compose.SideEffects"
             android:exported="true"
-            android:label="@string/title_activity_compose"
-            android:theme="@style/Theme.AppCompat" >
-            <intent-filter>
-              <action android:name="android.intent.action.MAIN" />
-
-              <category android:name="android.intent.category.LAUNCHER" />
-          </intent-filter>
-        </activity>
-        <activity
-            android:name=".multiple_back_stack.MultipleBackStack"
-            android:exported="true"
-            android:label="@string/title_activity_multiple_back_stack"
-            android:theme="@style/Theme.AppCompat"></activity>
-        <activity
-            android:name=".CameraX.CameraX"
-            android:exported="true"
-            android:label="@string/title_activity_camera_x"
-            android:theme="@style/Theme.AppCompat"></activity>
-        <activity
-            android:name=".permissions.permissions"
-            android:exported="true"
-            android:label="@string/title_activity_permissions"
-            android:theme="@style/Theme.AppCompat" />
-        <activity
-            android:name=".configuration_changes.Configuration_changes"
-            android:exported="true"
-            android:label="@string/title_activity_configuration_changes"
-            android:theme="@style/Theme.AppCompat" />
-        <activity
-            android:name=".contentProviders.ContentProvideEx"
-            android:exported="true"
-            android:theme="@style/AppTheme">
-
-            <!--
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            -->
-        </activity>
-        <activity
-            android:name=".databinding.DataBindingActivity"
-            android:exported="true"
-            android:theme="@style/AppTheme">
-
-            <!--
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            -->
-        </activity>
-        <activity
-            android:name=".viewbinding.ViewBindingEx"
-            android:exported="true"
-            android:theme="@style/AppTheme">
-
-            <!--
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            -->
-        </activity>
-        <activity
-            android:name=".compose_navigation.NavCompose"
-            android:exported="true"
-            android:label="@string/title_activity_nav_compose"
+            android:label="@string/title_activity_side_effects"
             android:theme="@style/Theme.AppCompat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -105,31 +44,32 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+   
         <activity
-            android:name=".navigation.NavActivity"
-            android:exported="true">
-
-            <!--
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            -->
-        </activity>
-        <activity
-            android:name=".MainActivity"
+            android:name=".kotlin_Android.liveData.LiveDataEx"
             android:exported="true"
-            android:theme="@style/Theme.MyOwnFrameWork">
+            android:label="@string/title_activity_live_data_ex"
+            android:theme="@style/Theme.AppCompat"></activity>
 
-            <!--
+
+        <activity
+            android:name=".Kotlin_Android.contentProviders.ContentProvideEx"
+            android:exported="true"
+            android:theme="@style/AppTheme"
+            tools:ignore="MissingClass" />
+
+        <activity
+            android:name=".Kotlin_Android.search.Search"
+            android:exported="true"
+            android:theme="@style/Theme.MyOwnFrameWork"
+            tools:ignore="MissingClass">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            -->
         </activity>
+
     </application>
 
 </manifest>
