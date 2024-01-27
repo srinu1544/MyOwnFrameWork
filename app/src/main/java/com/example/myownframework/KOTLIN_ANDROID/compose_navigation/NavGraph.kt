@@ -8,9 +8,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.myownframework.KOTLIN_ANDROID.compose_navigation.ScreenA
-import com.example.myownframework.KOTLIN_ANDROID.compose_navigation.ScreenB
-import com.example.myownframework.KOTLIN_ANDROID.compose_navigation.ScreenC
+
 
 @SuppressLint("SuspiciousIndentation")
 @Composable

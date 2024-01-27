@@ -1,4 +1,6 @@
+import org.jetbrains.kotlin.gradle.utils.loadPropertyFromResources
 import org.jetbrains.kotlin.kapt3.base.Kapt.kapt
+import java.util.Properties
 
 plugins {
     id("com.android.application")
@@ -23,6 +25,12 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+
+
+        val properties : Properties = Properties()
+        properties.load(project.rootProject.file("local.properties").inputStream())
+
+        buildConfigField ("String", "API_KEY" ,"\"${properties.getProperty("API_KEY")}\"")
 
 
 
@@ -60,7 +68,11 @@ android {
 
     buildFeatures {
         compose = true
+        buildConfig = true
     }
+
+
+
     composeOptions {
         kotlinCompilerExtensionVersion = "1.4.3"
     }
@@ -74,6 +86,10 @@ android {
 dependencies {
 
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
 
     val lifecycle_version = "2.6.2"
 

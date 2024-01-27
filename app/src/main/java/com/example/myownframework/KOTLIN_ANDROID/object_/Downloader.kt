@@ -1,6 +1,5 @@
 package com.example.myownframework.Kotlin_Android.object_
 
-import com.example.practiceapp.Kotlin_Android.object_.DownloadListener
 
 class  Downloader {
 

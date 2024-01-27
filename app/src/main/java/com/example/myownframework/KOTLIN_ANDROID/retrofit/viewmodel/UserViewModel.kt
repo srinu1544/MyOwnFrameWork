@@ -4,8 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.myownframework.KOTLIN_ANDROID.retrofit.model.Users
-import com.example.myownframework.KOTLIN_ANDROID.retrofit.repository.UsersRepository
+import com.example.myownframework.Kotlin_Android.Retrofit.model.Users
+import com.example.myownframework.Kotlin_Android.retrofit.repository.UsersRepository
+
 import kotlinx.coroutines.launch
 
 class UserViewModel(private val repository: UsersRepository) : ViewModel() {

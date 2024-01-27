@@ -4,10 +4,10 @@ package com.example.practiceapp.Kotlin_Android.AAAA_ALL_Questions
 
 self introduction
 -----------------
-"Hii, Good morning , my name is Srinivas
+"Hii, Good morning , this is Srinivas
 i have 6.2 years of experience as a software engineer
-I've been working in the field of Android development for  6.2 years. During this time,
-I've had the opportunity to work on a variety of projects ,  i done so many applications
+I been working in the field of Android development for  6.2 years. During this time,
+I had the opportunity to work on a variety of projects ,  i done so many applications
 related to multiple domains like health care, educational applications, E-commerse
 application traveling related applications, iot related applications, telecom applications , automobile applications ,
 

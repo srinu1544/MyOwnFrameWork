@@ -2,7 +2,6 @@ package com.example.myownframework.Kotlin_Android.JetpackCompose
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
@@ -13,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun LazyRowEx(){
+fun LazyRowEx() {
     LazyRow (modifier = Modifier.fillMaxSize()){
         items(10) { i ->
             Icon(

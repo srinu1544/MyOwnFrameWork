@@ -9,9 +9,17 @@ must watch :
 ------------
 https://www.youtube.com/watch?v=4D79It7Jnzg&ab_channel=PhilippLackner
 https://developer.android.com/jetpack/compose/touch-input/handling-interactions
+https://www.youtube.com/watch?v=_FtKhWvHiTg&ab_channel=PhilippLackner
+
+new things
+-----------
+-> jetbreans fleet (ide for all launguages support)
+-> kotlin kandy     --- for graphs
+-> google announced android system service together with AI Gemini
+   that system services called AI Core
+
 
 ? - asked in interviews
-@ - it is in practicd app file
 # - study completed
 $ - Details in MyFrameWork project
 
@@ -22,7 +30,7 @@ $ - Details in MyFrameWork project
 Kotlin,Java and Android
 =======================
 
-KOtlin
+Kotlin
 =======
 
 about kotlin :
@@ -598,11 +606,15 @@ why two gradle files in android ?
 
 unsplash apis -
 
-network inspector  ?
+network inspector ?
 
 what is hiltviewmodel?
 
 firebase dynamic links
+
+ordered broadcast receiver?
+
+
 
 
 

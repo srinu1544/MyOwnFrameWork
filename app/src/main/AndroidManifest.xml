@@ -34,9 +34,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".Kotlin_Android.compose.SideEffects"
+            android:name=".Kotlin_Android.JetpackCompose.Animations.AnimationsMA"
             android:exported="true"
-            android:label="@string/title_activity_side_effects"
+            android:label="@string/title_activity_animations_ma"
             android:theme="@style/Theme.AppCompat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,32 +44,33 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-   
+        <activity
+            android:name=".Kotlin_Android.ZZZZZZZZ.PracticeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_practice"
+            android:theme="@style/Theme.AppCompat"></activity>
+        <activity
+            android:name=".Kotlin_Android.JetpackCompose.EffectsHandlers.EffectsMA"
+            android:exported="true"
+            android:label="@string/title_activity_side_effects"
+            android:theme="@style/Theme.AppCompat">
+
+        </activity>
         <activity
             android:name=".kotlin_Android.liveData.LiveDataEx"
             android:exported="true"
             android:label="@string/title_activity_live_data_ex"
-            android:theme="@style/Theme.AppCompat"></activity>
-
-
+            android:theme="@style/Theme.AppCompat" />
         <activity
             android:name=".Kotlin_Android.contentProviders.ContentProvideEx"
             android:exported="true"
             android:theme="@style/AppTheme"
             tools:ignore="MissingClass" />
-
         <activity
             android:name=".Kotlin_Android.search.Search"
             android:exported="true"
             android:theme="@style/Theme.MyOwnFrameWork"
-            tools:ignore="MissingClass">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
+            tools:ignore="MissingClass"></activity>
     </application>
 
 </manifest>

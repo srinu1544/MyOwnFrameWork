@@ -14,7 +14,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.myownframework.KOTLIN_ANDROID.CameraX.ui.theme.MyOwnFrameWorkTheme
-import com.example.myownframework.KOTLIN_ANDROID.configuration_changes.ContactsViewModel
 
 
 class Configuration_changes : ComponentActivity() {

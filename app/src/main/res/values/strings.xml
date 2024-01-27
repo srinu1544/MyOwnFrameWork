@@ -19,4 +19,6 @@
     <string name="title_activity_live_data_ex">LiveDataEx</string>
     <string name="title_activity_permissions_compose">PermissionsCompose</string>
     <string name="title_activity_side_effects">SideEffects</string>
+    <string name="title_activity_practice">PracticeActivity</string>
+    <string name="title_activity_animations_ma">AnimationsMA</string>
 </resources>

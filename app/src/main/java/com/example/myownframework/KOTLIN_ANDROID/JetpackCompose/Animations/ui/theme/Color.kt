@@ -1,4 +1,4 @@
-package com.example.myownframework.KOTLIN_ANDROID.compose.ui.theme
+package com.example.myownframework.Kotlin_Android.JetpackCompose.Animations.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

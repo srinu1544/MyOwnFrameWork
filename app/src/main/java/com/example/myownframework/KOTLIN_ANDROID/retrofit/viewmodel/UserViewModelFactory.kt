@@ -2,7 +2,7 @@ package com.example.myownframework.KOTLIN_ANDROID.retrofit.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.myownframework.KOTLIN_ANDROID.retrofit.repository.UsersRepository
+import com.example.myownframework.Kotlin_Android.retrofit.repository.UsersRepository
 
 
 class UserViewModelFactory(private val repository: UsersRepository) : ViewModelProvider.Factory {

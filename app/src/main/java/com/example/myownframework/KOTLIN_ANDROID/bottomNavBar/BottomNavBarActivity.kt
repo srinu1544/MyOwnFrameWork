@@ -29,7 +29,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.navigation.compose.rememberNavController
-import com.example.bottonnavbar.bottomNavBar.Nav
 
 import com.example.bottonnavbar.bottomNavBar.ui.theme.BottonNavBarTheme
 

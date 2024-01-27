@@ -3,6 +3,9 @@ package com.example.myownframework.Kotlin_Android.Gradle
 /*
 
 
+https://www.youtube.com/watch?v=o0M4f5djJTQ&ab_channel=PhilippLackner
+
+
 Gradle is a build automation tool for Android that automates the process
 of building and publishing apps. It's based on Groovy and Kotlin, and
 is flexible enough to build almost any type of software.
@@ -58,6 +61,14 @@ GradleW (Gradle wrapper ) :
  ------------
 
  specify at which stage at which kind of whole development lifecycle
+
+
+ source set :
+ -----------
+
+ we can create a source set based on product flowers
+ app -> click new
+ Directory
 
 
 */
