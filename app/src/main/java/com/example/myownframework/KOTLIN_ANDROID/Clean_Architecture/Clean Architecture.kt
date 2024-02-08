@@ -22,8 +22,6 @@ https://www.udemy.com/course/android-clean-architecture-mvvm-jetpack/?referralCo
 https://www.skillshare.com/en/tedx?teacherRef=362049881&via=teacher-referral&utm_campaign=teacher-referral&utm_source=ShortUrl&utm_medium=teacher-referral&t=Android-with-Kotlin-MVVM-Jetpack-Clean-Architecture-in-3-hours-E-commerce-app&sku=1469686783
 
 
-
-
 clean architecture actually separate A whole app into presentation Domain And data layer.
 
 mvvm other hands is more just a set of rules that determines how data that is coming from domain should
@@ -39,12 +37,12 @@ It combines the benefits of Kotlin and a clear code structure to improve develop
 and ensure product quality.
 
 In Clean Architecture, a use case is a piece of business logic that represents a single task that the
- system needs to perform. The use case contains the rules and logic needed to perform the task, and
-  defines the inputs and outputs needed for the operation.
+system needs to perform. The use case contains the rules and logic needed to perform the task, and
+defines the inputs and outputs needed for the operation.
 
 The Use Case layer is one of the layers of Clean Architecture. Its purpose is to contain the business
 logic of the app, making it the core of the app. Each Use Case in this layer contains only one public
- method, which will be called by other classes.
+method, which will be called by other classes.
 
 Clean Architecture can help improve maintainability, modularity, and testability, as well as reduce
 development time and cost.

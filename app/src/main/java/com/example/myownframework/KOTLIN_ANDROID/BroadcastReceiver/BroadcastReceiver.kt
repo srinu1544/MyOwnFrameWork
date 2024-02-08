@@ -43,7 +43,9 @@ For example: IntentFilter
 intentFilter = new IntentFilter(); intentFilter.
 
 Static Broadcast Receivers: These types of Receivers are declared in the manifest file and works even if
-the app is closed. Dynamic Broadcast Receivers: These types of receivers work only if the app is active
+the app is closed.
+
+Dynamic Broadcast Receivers: These types of receivers work only if the app is active
 or minimized.
 
 

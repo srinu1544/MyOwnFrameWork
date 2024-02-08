@@ -1,6 +1,11 @@
 package com.example.myownframework.Kotlin_Android.services
 
-/*AIDL (Android Interface Definition Language):
+/*
+
+https://www.youtube.com/watch?v=JxmozhBzzcg&ab_channel=AOSP%C2%BB%C2%BBAndroid%C2%BB%C2%BBAI%C2%BB%C2%BBTechNewstoGo
+Aidl udemy - https://www.udemy.com/course/android-aidl/?referralCode=41A48EC9C7F132B1F55D
+
+AIDL (Android Interface Definition Language):
 ---------------------------------------------
 AIDL is used to create and communicate with services across different applications. It's
 often used in situations where inter-process communication (IPC) is required.

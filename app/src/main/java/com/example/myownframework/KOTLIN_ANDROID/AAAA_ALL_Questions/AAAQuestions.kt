@@ -10,6 +10,14 @@ must watch :
 https://www.youtube.com/watch?v=4D79It7Jnzg&ab_channel=PhilippLackner
 https://developer.android.com/jetpack/compose/touch-input/handling-interactions
 https://www.youtube.com/watch?v=_FtKhWvHiTg&ab_channel=PhilippLackner
+https://www.youtube.com/watch?v=0siVVtQEOFM&ab_channel=PhilippLackner -- video calling app
+https://www.youtube.com/watch?v=Loo4i5IrZ4Y&ab_channel=PhilippLackner -- splash screen
+https://www.youtube.com/watch?v=VvkRe9vP5Oc&ab_channel=PhilippLackner  --   memory leaks
+https://www.youtube.com/watch?v=2SWgl-OdxDY&ab_channel=PhilippLackner  --  task using gradle
+https://www.youtube.com/watch?v=-2ckvIzs0nU&ab_channel=PhilippLackner  -- Protect API Keys
+https://www.youtube.com/watch?v=ln5hc-zprEM&ab_channel=PhilippLackner   -- debugging
+https://www.youtube.com/watch?v=Psc2xyutE2U&ab_channel=PhilippLackner   -- workmanager
+https://www.youtube.com/watch?v=SJw3Nu_h8kk&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&ab_channel=PhilippLackner -- activities basics
 
 new things
 -----------
@@ -17,6 +25,8 @@ new things
 -> kotlin kandy     --- for graphs
 -> google announced android system service together with AI Gemini
    that system services called AI Core
+-> profile guided compilation.
+-> profiles in the cloud ()
 
 
 ? - asked in interviews
@@ -36,8 +46,8 @@ Kotlin
 about kotlin :
 ---------------
 what is kotlin         - @#
-Keyfeatures in kotlin  - @#
-Advani gtages of kotlin  - @#
+Key features in kotlin  - @#
+Advantages of kotlin  - @#
 
 variables :
 -----------
@@ -426,6 +436,19 @@ diff bw  app gradel and project gradel       @#?
 others
 =======
 
+if you add duplicates in HashSet what happen ?
+and : that object wont be added add method return false
+
+how to get class name in java?
+ans : Class.getClass().getName()
+
+how to get class name in kotlin?
+ans : Class.javaClass
+
+
+
+
+
 How do we get data from another application :
 Ans : use of shared prer
 
@@ -573,8 +596,6 @@ ans : private val viewModel by viewModels<ContactsViewModel>()
 
 where we use higher order function ?
 
-
-
 versatile in room database ?
 
 payment gateways ?
@@ -613,6 +634,20 @@ what is hiltviewmodel?
 firebase dynamic links
 
 ordered broadcast receiver?
+
+jdk vs jvm
+
+some basic classes in java
+
+Q.How to implement apps with native languages
+
+
+vector in framework
+wrapper classes
+.aab contains
+Q : play store procedure
+
+Q : encoding decoding
 
 
 

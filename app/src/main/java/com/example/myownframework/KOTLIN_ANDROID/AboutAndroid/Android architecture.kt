@@ -1,9 +1,13 @@
 package com.example.myownframework.Kotlin_Android.AboutAndroid
 
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.myownframework.Kotlin_Android.JetpackCompose.EffectsHandlers.SideEffectEx
 import com.example.myownframework.R
 
 
@@ -118,6 +122,13 @@ A common architecture used by Android developers is MVC, or Model-View-Controlle
 @Preview
 @Composable
 fun AndroidArch(){
-
     Image(painter = painterResource(id = R.drawable.architecture), contentDescription = null)
 }
+
+
+
+
+
+
+
+

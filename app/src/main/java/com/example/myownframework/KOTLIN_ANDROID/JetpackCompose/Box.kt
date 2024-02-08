@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.sp
 
 @Preview
 @Composable
-fun BoxExample(){
+fun BoxExample() {
 
     Box(
          modifier = Modifier.size(400.dp)

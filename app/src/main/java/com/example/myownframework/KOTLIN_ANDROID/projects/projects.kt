@@ -10,10 +10,6 @@ package com.example.myownframework.Kotlin_Android.projects
     clean Architecture
 
 
-    practiceApp
-    -----------
-
-
     MyOwnFrameWork
     ---------------
 

@@ -30,4 +30,16 @@ delete(): This method deletes a character or a substring from the StringBuffer o
 reverse(): This method reverses the order of the characters in the StringBuffer object.
 capacity(): This method returns the current capacity of the StringBuffer object.
 length(): This method returns the length of the StringBuffer object.
-toString(): This method converts the StringBuffer object to a String object.*/
+toString(): This method converts the StringBuffer object to a String object.
+
+
+
+
+note :  StringBuffer implements Comparable in Java SE 11 & JDK 11.
+ the default capacity of string buffer is 16 */
+
+
+fun main() {
+    val stringBuffer = StringBuffer()
+    println(stringBuffer.capacity())
+}

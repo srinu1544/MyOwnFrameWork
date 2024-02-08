@@ -1,11 +1,11 @@
 package com.example.myownframework.Kotlin_Android.functions
 
-/*In Kotlin, the crossinline keyword is used to specify that a
- lambda parameter passed to a higher-order function should not
- allow non-local returns. This keyword is typically used when
- you want to ensure that the lambda expression cannot use the
- return statement to return control flow to the caller of the
- higher-order function*/
+    /*In Kotlin, the crossinline keyword is used to specify that a
+     lambda parameter passed to a higher-order function should not
+     allow non-local returns. This keyword is typically used when
+     return statement to return control flow to the caller of the
+     you want to ensure that the lambda expression cannot use the
+     higher-order function */
 
 
 
@@ -14,10 +14,9 @@ a lambda parameter marked with crossinline. This means that the lambda
 passed to higherOrderFunction cannot contain return statements that
 would return control flow to the caller of higherOrderFunction.
 
-Here's an example to illustrate how crossinline works:*/
+Here's an example to illustrate how crossinline works : */
 
-
-inline fun compareInts(a:Int,b:Int, crossinline responce : (String) -> Unit){
+inline fun compareInts(a:Int,b:Int, crossinline responce : (String) -> Unit) {
     println("settings up comparison")
 
    val task = Runnable {
@@ -25,7 +24,6 @@ inline fun compareInts(a:Int,b:Int, crossinline responce : (String) -> Unit){
            responce("a>b")
        } else if (a < b) {
            responce("a<b")
-
        } else {
            responce("a == b")
        }

@@ -183,7 +183,13 @@ fun main(){
     val plusLuck = singeleOperations(4,{ x-> x+4})
     println(plusLuck)
 
+
+
+
 }
+
+
+
 
 
 

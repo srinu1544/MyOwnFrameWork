@@ -9,7 +9,7 @@ DVM is a Java virtual machine. It was developed by Dan Bornstein and other Googl
 part of the Android mobile platform. DVM is register-based, while JVM is stack-based.
 
 DVM compiles Java code to an intermediate format called Java bytecode. It uses its own 16-bit
- instruction set that works directly on local variables.
+instruction set that works directly on local variables.
 
 
  The DVM works by:
@@ -22,7 +22,4 @@ The DVM also:
 Optimizes the virtual machine for memory, battery life, and performance
 Converts class files into .dex files
 Converts multiple class files into dex files
-The DVM converts bytecode every time a specific app is launched
-
-
-  */
+The DVM converts bytecode every time a specific app is launched */

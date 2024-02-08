@@ -3,7 +3,7 @@ package com.example.myownframework.Kotlin_Android.safecallOperators
 /*Another way of using a nullable property is safe call operator ?.
 
 This calls the method if the property is not null or returns null if that
- property is null without throwing an NPE (null pointer exception).
+property is null without throwing an NPE (null pointer exception).
 
 Null Comparisons are simple but number of nested if-else expression could
 be burdensome. So, Kotlin has a Safe call operator, ?. that reduces this
@@ -17,3 +17,6 @@ fun main(){
     name = null
     println(name?.length)
 }
+// out put
+//8
+//null

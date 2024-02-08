@@ -14,6 +14,10 @@ import com.example.myownframework.BuildConfig
 import com.example.myownframework.Kotlin_Android.ZZZZZZZZ.ui.theme.MyOwnFrameWorkTheme
 
 class PracticeActivity : ComponentActivity() {
+
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val apikey = BuildConfig.API_KEY
