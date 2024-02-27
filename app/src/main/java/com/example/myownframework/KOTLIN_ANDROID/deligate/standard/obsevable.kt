@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.deligate.standard
+package com.example.myownframework.Kotlin_Android.Deligate.standard
 
 import kotlin.properties.Delegates
 

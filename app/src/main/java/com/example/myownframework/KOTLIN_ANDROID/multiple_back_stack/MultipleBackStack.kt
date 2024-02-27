@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.multiple_back_stack
+package com.example.myownframework.Kotlin_Android.Multiple_Back_Stack
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

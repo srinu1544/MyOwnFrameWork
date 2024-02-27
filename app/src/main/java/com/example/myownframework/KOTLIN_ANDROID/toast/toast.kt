@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.toast
+package com.example.myownframework.Kotlin_Android.Toast
 
 import android.content.Context
 import android.widget.Toast

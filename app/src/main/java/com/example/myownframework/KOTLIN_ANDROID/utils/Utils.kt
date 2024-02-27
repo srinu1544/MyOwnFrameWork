@@ -1,13 +1,8 @@
-package com.example.myownframework.Kotlin_Android.utils
+package com.example.myownframework.Kotlin_Android.Utils
 
 import android.app.Activity
 import android.content.Intent
 import android.view.View
-import androidx.compose.foundation.Image
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.myownframework.R
 
 
 // for stating a activity

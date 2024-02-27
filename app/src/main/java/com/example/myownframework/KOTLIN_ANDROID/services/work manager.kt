@@ -1,6 +1,10 @@
-package com.example.myownframework.Kotlin_Android.services
+package com.example.myownframework.Kotlin_Android.Services
 
-/*WorkManager (Android Architecture Components):
+/*
+https://www.youtube.com/watch?v=Psc2xyutE2U&ab_channel=PhilippLackner
+
+
+WorkManager (Android Architecture Components):
 ----------------------------------------------
 WorkManager is an Android library that schedules and runs background tasks. It's part of Android
 Jetpack. WorkManager is used for tasks that need to run even if the app exits or the device

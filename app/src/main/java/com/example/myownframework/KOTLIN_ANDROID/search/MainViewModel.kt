@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.search
+package com.example.myownframework.Kotlin_Android.Search
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

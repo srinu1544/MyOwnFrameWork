@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.configuration_changes
+package com.example.myownframework.Kotlin_Android.Configuration_Changes
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

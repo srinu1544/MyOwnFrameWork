@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.safecallOperators
+package com.example.myownframework.Kotlin_Android.SafecallOperators
 
 
 /*In Kotlin, the let function is often used for safe calls when working with nullable objects.

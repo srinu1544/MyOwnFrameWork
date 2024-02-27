@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.keywords
+package com.example.myownframework.Kotlin_Android.Keywords
 
 /*The static keyword in Java is a non-access modifier that is used to declare static members
 of a class. Static members are shared among all instances of a class, and they are not tied

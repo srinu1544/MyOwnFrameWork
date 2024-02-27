@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.sqlite
+package com.example.myownframework.Kotlin_Android.Sqlite
 
 /*SQLite is an open-source relational database management system that's built into Android.
  It's used to store, manipulate, and retrieve data from a database.

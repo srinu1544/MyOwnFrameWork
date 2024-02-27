@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.firebase
+package com.example.myownframework.Kotlin_Android.Firebase
 
 /* add dependency links
 

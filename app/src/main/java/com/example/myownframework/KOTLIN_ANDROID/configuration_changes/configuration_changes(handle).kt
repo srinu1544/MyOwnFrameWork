@@ -1,13 +1,15 @@
-package com.example.myownframework.Kotlin_Android.configuration_changes
+package com.example.myownframework.Kotlin_Android.Configuration_Changes
 
-/*   /* Create three layouts
+/*   Create three layouts
    ----------------------
     Create three layouts, each defining the navigation elements and view hierarchy for a different device
      configuration. The layout file's directory structure determines which configuration it applies to.
 
     Set the android:configChanges flag
     ----------------------------------
-    Set this flag on your Activity in AndroidManifest.xml to prevent your Activities from being recreated. This ensures that all your views and data remain after an orientation change.
+    Set this flag on your Activity in AndroidManifest.xml to prevent your Activities from
+     being recreated. This ensures that all your views and data remain after an orientation change.
+
 
     Save and restore activity state
     --------------------------------

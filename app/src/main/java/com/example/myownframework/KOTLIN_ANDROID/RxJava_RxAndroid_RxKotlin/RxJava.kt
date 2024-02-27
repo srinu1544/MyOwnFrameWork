@@ -45,13 +45,13 @@ during the processing of Observables.
 
 RxJava is commonly used in Android app development for managing asynchronous operations, handling UI updates,
 and working with data streams like user input, network requests, and more. It simplifies the complexity of
- managing asynchronous code and helps create more responsive and maintainable applications.
-
-
+managing asynchronous code and helps create more responsive and maintainable applications.
 
 
 RxJava Operators in RxAndroid
-RxAndroid provides a powerful toolkit for reactive programming on the Android platform. Operators are the building blocks of RxJava, allowing you to manipulate data streams and achieve various effects. Here's a comprehensive overview of essential RxJava operators in RxAndroid:
+RxAndroid provides a powerful toolkit for reactive programming on the Android platform.
+Operators are the building blocks of RxJava, allowing you to manipulate data streams
+and achieve various effects. Here's a comprehensive overview of essential RxJava operators in RxAndroid:
 
 1. Creating Observables:
 
@@ -123,39 +123,25 @@ observeOnMainThread: Observes an Observable on the main thread.
 }*/
 
 
-@SuppressLint("CheckResult")
+@SuppressLint("CheckResult", "SuspiciousIndentation")
 fun main() {
 
-
     Observable.fromArray("Red", "Blue", "green")
+    val obsrvable =  Observable.just("Red", "Blue", "green")
+    val range =  Observable.range(1,15)
 
 
-   val obsrvable =  Observable.just("Red", "Blue", "green")
 
-  val range =  Observable.range(1,15)
 
 
     range.subscribeOn(Schedulers.io())
     range.observeOn(Schedulers.io())
     range.subscribe{onNext -> println(onNext)}
 
-    obsrvable.subscribe(object : Observer<String>{
-        override fun onSubscribe(d: Disposable) {
-            TODO("Not yet implemented")
-        }
+    obsrvable.subscribe{it -> println(it)}
 
-        override fun onError(e: Throwable) {
-            TODO("Not yet implemented")
-        }
 
-        override fun onComplete() {
-            TODO("Not yet implemented")
-        }
 
-        override fun onNext(t: String) {
-            TODO("Not yet implemented")
-        }
-    })
 
 
 }

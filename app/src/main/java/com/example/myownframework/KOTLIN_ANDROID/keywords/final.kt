@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.keywords
+package com.example.myownframework.Kotlin_Android.Keywords
 
 /*The final keyword in Kotlin is used to modify the behavior of classes, properties,
 and functions as final. This means that they cannot be overridden, change or

@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.maps_location
+package com.example.myownframework.Kotlin_Android.Maps_Location
 
 /* Geocoding is the process of converting an address into geographic coordinates.
 These coordinates can be used to place markers on a map or position the map.

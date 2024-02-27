@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.scope_functions
+package com.example.myownframework.Kotlin_Android.Scope_Functions
 
 /* if you want to do some additional object configurations or operations *
 

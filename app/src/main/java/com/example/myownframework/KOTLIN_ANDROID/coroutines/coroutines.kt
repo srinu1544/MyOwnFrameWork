@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.coroutines
+package com.example.myownframework.Kotlin_Android.Coroutines
 
 
 import kotlinx.coroutines.Dispatchers
@@ -9,6 +9,9 @@ import kotlinx.coroutines.launch
 /*
 what is coroutine:
 ------------------
+
+-> coroutines are light weight thread
+
 -> Coroutines are available for Kotlin. They execute long-running tasks without blocking
 the main thread or freezing the UI.
 
@@ -57,7 +60,7 @@ worry about memory leaks
 
 viewmodel scope :
 -----------------
-A ViewModelScope is defined for each ViewModel in your app. Any coroutine launched in this scope
+A ViewModel Scope is defined for each ViewModel in your app. Any coroutine launched in this scope
 is automatically canceled if the ViewModel is cleared. Coroutines are useful here for when you
 have work that needs to be done only if the ViewModel is active. For example, if you are computing
 some data for a layout, you should scope the work to the ViewModel so that if the ViewModel is
@@ -77,7 +80,7 @@ class MyViewModel: ViewModel() {
 
 launch :
 --------
--> where launch is used for where you dont want to get result back (updating of data extra)
+-> where launch is used for where you don't want to get result back (updating of data extra)
 -> launch the coroutine and forget
 -> launch calls sequentially
 

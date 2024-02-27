@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.contentProviders
+package com.example.myownframework.Kotlin_Android.ContentProviders
 
 import android.content.ContentUris
 import android.net.Uri

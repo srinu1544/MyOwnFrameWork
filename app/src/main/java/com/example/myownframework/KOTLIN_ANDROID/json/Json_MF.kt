@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.json
+package com.example.myownframework.Kotlin_Android.Json
 
 /*
   JSON stands for JavaScript Object Notation.

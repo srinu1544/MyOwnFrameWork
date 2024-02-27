@@ -3,7 +3,22 @@ package com.example.myownframework.Kotlin_Android.DependencyInjections
 /*
 
 
-please refer : example in Dagger RxJava
+please refer : example in Dagger RxJava, MyDagger2
+https://www.youtube.com/watch?v=nRQVlaEKYkU&t=579s&ab_channel=SimplifiedCoding
+official dagger2 - https://dagger.dev/dev-guide/android
+
+
+intigration
+
+add in plugins
+plugins {
+
+    id("kotlin-kapt")
+}
+
+
+ implementation ("com.google.dagger:dagger:2.48.1")
+ kapt ("com.google.dagger:dagger-compiler:2.48.1")
 
 
 ** what is dagger **
@@ -108,19 +123,35 @@ Users best practice for generate code
 Reusability
 memory management
 
-
 Direct acyclic graph (DAG)
 
-
 Order of injections :
+---------------------
 1 constructor injection
 2 field field injection
 3 method injection
 
-
 module :
 A module basically component that contribute the dependency graph it helps
 it helps us add components or elements or objects whatever you want to call them to our dependency
+
+
+process
+--------
+-> Add @inject annotation to class that you want to inject
+-> create a module for the classes that cannot be constructor injected eg..interfaces , context classes
+-> create injectors for activity/fragments
+-> create app component
+-> instantiate Dagger inside your application class, implements HasAndroidInjector and inject Dispatchers
+   android injector
+-> use AndroidInjection.inject to inject dependencies with the help inject annotation.
+
+benefits of dagger2 :
+---------------------
+-> Generates the AppContainer, that we created manually
+-> create factory for the classes available in the application graph
+-> Decides, whether to reuse the dependency or create a new instance with the help of scopes
+-> Creating container for specific flows
 
 
 

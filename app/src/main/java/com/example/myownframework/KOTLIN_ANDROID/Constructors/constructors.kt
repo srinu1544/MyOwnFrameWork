@@ -7,7 +7,7 @@ please refer : https://www.youtube.com/results?search_query=kotlin+constructors
 
 
 -> if we not define any constructor default constructor is available
--> connot write any logic in primary constructor bec we dont have any body
+-> cannot write any logic in primary constructor bec we don't have any body
 -> if you want to write any logic we can write in the init block
 -> init block will called after call the primary constructor
 -> we can have multiple init blocks

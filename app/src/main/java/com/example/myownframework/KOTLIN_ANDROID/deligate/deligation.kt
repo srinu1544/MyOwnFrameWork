@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.deligate.standard
+package com.example.myownframework.Kotlin_Android.Deligate.standard
 
 /*delegation is a object orient design pattern and kotlin supports it natively
 

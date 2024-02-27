@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.search
+package com.example.myownframework.Kotlin_Android.Search
 
 
 import android.os.Bundle
@@ -7,7 +7,6 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.material.*
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Text

@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.contentProviders
+package com.example.myownframework.Kotlin_Android.ContentProviders
 
 /*An Android Content Provider is a component of the Android operating system that allows different applications
 to share data with each other. It acts as an intermediary between applications and a central repository of data,

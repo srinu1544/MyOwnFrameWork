@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.services
+package com.example.myownframework.Kotlin_Android.Services
 
 /*JUnit
 A unit testing framework for Java applications. It's included by default in Android Studio.

@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.scope_functions
+package com.example.myownframework.Kotlin_Android.Scope_Functions
 
 
 /*

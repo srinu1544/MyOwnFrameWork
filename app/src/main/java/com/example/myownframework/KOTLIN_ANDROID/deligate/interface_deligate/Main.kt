@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.deligate.interface_deligate
+package com.example.myownframework.Kotlin_Android.Deligate.interface_deligate
 
 class  FileDownloader(private val file : String )  :
    Downloadr {

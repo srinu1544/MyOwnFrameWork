@@ -1,6 +1,10 @@
-package com.example.myownframework.Kotlin_Android.bluetooth
+package com.example.myownframework.Kotlin_Android.Bluetooth
 
 /*
+
+please refer
+clone project
+https://www.youtube.com/watch?v=A41hkHoYu4M&ab_channel=PhilippLackner
 
 
 Bluetooth is a wireless technology that allows devices to communicate with each other without

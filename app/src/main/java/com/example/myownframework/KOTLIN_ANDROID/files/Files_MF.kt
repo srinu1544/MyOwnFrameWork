@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.files
+package com.example.myownframework.Kotlin_Android.Files
 
 /* this file for know about all file types in android kotlin and java
 

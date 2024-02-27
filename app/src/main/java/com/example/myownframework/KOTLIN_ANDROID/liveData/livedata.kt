@@ -25,7 +25,8 @@ LiveData only updates app component observers that are in an active lifecycle st
 
 setValue()
 postValue()
-By name, these two functions are quite confusing, as they appear to serve the same purpose. However, the reality is quite different.
+By name, these two functions are quite confusing, as they appear to serve the same purpose. However,
+ the reality is quite different.
 
 What exactly is LiveData?
 If you know this already as the Android expert , skill this part

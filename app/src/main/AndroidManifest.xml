@@ -62,15 +62,16 @@
             android:label="@string/title_activity_live_data_ex"
             android:theme="@style/Theme.AppCompat" />
         <activity
-            android:name=".Kotlin_Android.contentProviders.ContentProvideEx"
+            android:name=".Kotlin_Android.ContentProviders.ContentProvideEx"
             android:exported="true"
             android:theme="@style/AppTheme"
             tools:ignore="MissingClass" />
         <activity
-            android:name=".Kotlin_Android.search.Search"
+            android:name=".Kotlin_Android.Search.Search"
             android:exported="true"
             android:theme="@style/Theme.MyOwnFrameWork"
             tools:ignore="MissingClass"></activity>
+
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.operators
+package com.example.myownframework.Kotlin_Android.Operators
 
 /* spread operator :
 --------------------

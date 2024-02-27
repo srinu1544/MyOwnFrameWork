@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.sha1_Key
+package com.example.myownframework.Kotlin_Android.Sha1_Key
 
 /*
 

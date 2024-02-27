@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.services
+package com.example.myownframework.Kotlin_Android.Services
 
 /*The lifecycle of a service is much simpler than that of an activity. However,
 it's even more important that you pay close attention to how your service is created

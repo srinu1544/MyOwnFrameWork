@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.maps_location
+package com.example.myownframework.Kotlin_Android.Maps_Location
 
 /*
 

@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.services
+package com.example.myownframework.Kotlin_Android.Services
 
 /*Mockito is a mocking framework, JAVA-based library that is used for effective unit testing of
 JAVA applications. Mockito is used to mock interfaces so that a dummy functionality can be added

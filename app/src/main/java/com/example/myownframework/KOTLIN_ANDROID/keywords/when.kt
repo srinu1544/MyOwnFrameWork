@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.keywords
+package com.example.myownframework.Kotlin_Android.Keywords
 
 /*The when expression in Kotlin is a powerful construct that can be used to replace the switch
 statement in Java. It is a versatile expression that can be used in a variety of ways,

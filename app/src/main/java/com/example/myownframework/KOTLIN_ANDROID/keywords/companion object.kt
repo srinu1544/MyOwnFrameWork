@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.keywords
+package com.example.myownframework.Kotlin_Android.Keywords
 
 /*
 In Kotlin, you can use the companion object to define static methods and properties.

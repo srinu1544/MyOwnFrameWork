@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.Clean_Architecture
+package com.example.MyOwnFrameWork.Kotlin_Android.Clean_Architecture
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -59,8 +59,6 @@ Your team can add new features even more quickly.
 presentation layer (ui)
 Domain layer  (business layer)
 Data Layer    (repository)
-
-
 
 */
 

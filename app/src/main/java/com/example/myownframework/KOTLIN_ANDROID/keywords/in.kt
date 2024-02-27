@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.keywords
+package com.example.myownframework.Kotlin_Android.Keywords
 
 /*The in keyword in Kotlin is used to check if a value is present in a collection or range.
 For example, the following code will print "true" because the value 1 is present in the list

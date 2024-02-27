@@ -16,12 +16,16 @@ https://www.youtube.com/watch?v=VvkRe9vP5Oc&ab_channel=PhilippLackner  --   memo
 https://www.youtube.com/watch?v=2SWgl-OdxDY&ab_channel=PhilippLackner  --  task using gradle
 https://www.youtube.com/watch?v=-2ckvIzs0nU&ab_channel=PhilippLackner  -- Protect API Keys
 https://www.youtube.com/watch?v=ln5hc-zprEM&ab_channel=PhilippLackner   -- debugging
-https://www.youtube.com/watch?v=Psc2xyutE2U&ab_channel=PhilippLackner   -- workmanager
+https://www.youtube.com/watch?v=Psc2xyutE2U&ab_channel=PhilippLackner   -- work manager
 https://www.youtube.com/watch?v=SJw3Nu_h8kk&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vUhsm&ab_channel=PhilippLackner -- activities basics
+https://www.youtube.com/shorts/SAD8flVdILY   --- view model initialization  compose
+
+https://www.youtube.com/watch?v=LFlobqW8Sy8&ab_channel=NativeMobileBits -- app with latest tech
+
 
 new things
------------
--> jetbreans fleet (ide for all launguages support)
+----------
+-> JetBrains fleet (ide for all languages support)
 -> kotlin kandy     --- for graphs
 -> google announced android system service together with AI Gemini
    that system services called AI Core

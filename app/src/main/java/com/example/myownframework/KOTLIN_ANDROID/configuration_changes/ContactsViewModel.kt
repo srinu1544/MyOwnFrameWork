@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.configuration_changes
+package com.example.myownframework.Kotlin_Android.Configuration_Changes
 
 import android.util.Log
 import androidx.compose.runtime.getValue

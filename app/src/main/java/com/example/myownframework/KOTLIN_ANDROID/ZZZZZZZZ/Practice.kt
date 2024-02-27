@@ -1,11 +1,5 @@
 package com.example.myownframework.Kotlin_Android.ZZZZZZZZ
 
-import androidx.compose.foundation.lazy.staggeredgrid.rememberLazyStaggeredGridState
-import com.example.myownframework.Kotlin_Android.keywords.getNum
-import java.util.Arrays
-import java.util.Stack
-import java.util.Vector
-
 
 fun main() {
 
@@ -14,18 +8,14 @@ fun main() {
 
 reverse()
 
+    println()
+
 }
 
 
  fun reverse(){
 
-     var name = "Hello Vinod"
-
-     val arr = name.toCharArray()
-
-     for (i in arr.size-1 downTo 0 ){
-         print(arr[i])
-     }
+     val prin = println("hello")
  }
 
 

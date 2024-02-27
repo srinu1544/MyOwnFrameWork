@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.variables
+package com.example.myownframework.Kotlin_Android.Variables
 
 /*
 package com.example.practiceapp.variables

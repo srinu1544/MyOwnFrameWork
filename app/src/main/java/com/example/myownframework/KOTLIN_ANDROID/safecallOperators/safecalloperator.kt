@@ -1,4 +1,4 @@
-package com.example.myownframework.Kotlin_Android.safecallOperators
+package com.example.myownframework.Kotlin_Android.SafecallOperators
 
 /*Another way of using a nullable property is safe call operator ?.
 
