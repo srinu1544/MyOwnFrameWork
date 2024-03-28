@@ -14,7 +14,7 @@ syntax for certain operations.*/
 
 class MyFunction() {
 
-     operator fun invoke(x: Int, y: Int): Int {
+    operator fun invoke(x: Int, y: Int): Int {
         return x + y
     }
 }
@@ -22,9 +22,21 @@ class MyFunction() {
 
 fun main() {
 
-    val myFunction = MyFunction()
-    val result =  myFunction(5,6)
-    println(result)
+   // val myFunction = MyFunction()
+   // val result =  myFunction(5,6)
+  //  println(result)
+
+    val square = Square().invoke(3)
+    println(square)
+
+}
+
+// second example of invoke function
+class Square : (Int) -> String  {
+     override fun invoke(p1: Int): String {
+       return "${p1*p1}"
+    }
+
 
 }
 

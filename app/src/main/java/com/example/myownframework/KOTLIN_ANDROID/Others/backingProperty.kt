@@ -16,8 +16,8 @@ class Studentt {
 
     private val _hobbies = mutableListOf<String>()
     val hobbies :  List<String>
-        get() {
 
+        get() {
             return _hobbies
         }
 

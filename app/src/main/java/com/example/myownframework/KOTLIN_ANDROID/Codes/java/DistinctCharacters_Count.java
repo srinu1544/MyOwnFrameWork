@@ -5,8 +5,6 @@ import java.util.Map;
 
 public class DistinctCharacters_Count {
 
-
-
     static void distinict_char_count() {
 
         String str1 = "abcdABCDabcd";

@@ -13,8 +13,6 @@ import com.example.myownframework.R
 
 
 /*
-
-
 refer : separate app composepaging3Cache
 
 please refer :

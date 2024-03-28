@@ -1,22 +1,43 @@
 package com.example.myownframework.Kotlin_Android.ZZZZZZZZ
 
+import java.util.Arrays
+
 
 fun main() {
 
-//val data = ("T.R024110.281021.1.0.CRL.*@T.T039801.101122.500.0.CRL.*@P.X078951.101122.500.27.CRL.*@T.Q045373.281021.1.0.CRL.*@T.R018517.291021.1.0.CRL.*@C.Z008027.070517.88.0.CRL.*@T.S002309.291021.2.0.CRL.*@P.W060720.301021.1.0.BPP.*@T.Q045372.281021.1.0.BPP.*@P.X039213.291021.2.0.BPP.*@T.S042291.281021.1.0.PNR.*@T.S002302.291021.1.0.PNR.*@T.S046343.291021.4.0.PNR.*@C.J069549.281021.1.0.PNR.*@T.R071233.271021.1.0.CBLU
+    val fibonacci = mutableListOf<Int>()
+
+    var n1 = 0
+    var n2 = 1
+
+    var n3 = 0
+
+    val count = 20
 
 
-reverse()
+    fibonacci.add(n1)
+    fibonacci.add(n2)
 
-    println()
+    for (i in 0 until count){
+        n3 = n1 + n2
+        fibonacci.add(n3)
+        n1 = n2
+        n2 = n3
+    }
+
+    println(fibonacci)
+
+
+
+
 
 }
 
 
- fun reverse(){
 
-     val prin = println("hello")
- }
+
+
+
 
 
 

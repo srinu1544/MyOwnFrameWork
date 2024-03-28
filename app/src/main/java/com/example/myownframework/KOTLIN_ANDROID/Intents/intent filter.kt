@@ -1,6 +1,15 @@
 package com.example.myownframework.Kotlin_Android.Intents
 
-/*In Android, an intent filter is an expression in an app's manifest file that specifies
+/*
+
+
+In Android, an Intent Filter is a declaration in the AndroidManifest.xml file that
+specifies the types of intents that an activity, service, or broadcast receiver can
+respond to. It defines the types of intents that an app component is willing to receive
+
+
+
+In Android, an intent filter is an expression in an app's manifest file that specifies
 the type of intents that a component can receive. Intent filters declare the capabilities
 of their parent components, such as activities, services, or broadcast receivers
 

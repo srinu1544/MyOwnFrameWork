@@ -78,4 +78,4 @@ you can go to Tasks > Android > signingReport.
 The SHA-1 fingerprint is a string of 40 hexadecimal digits,
 usually in pairs separated by spaces or other non-alphanumeric delimiters.
 Certain Google Play services (such as Google Sign-in and App Invites) require
-you to provide the SHA-1 of your signing certificate*/
+you to provide the SHA-1 of your signing certificate */

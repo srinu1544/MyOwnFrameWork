@@ -18,7 +18,7 @@ class FilePlayer(private val file : String) :
 
 // in normal
 /*class MediaFile(private val downloadr: Downloadr,
-                private val player: Player) : Downloadr,Player{
+                private val player: Player) : Downloadr,Player {
     override fun download() {
        downloadr.download()
     }

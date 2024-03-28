@@ -16,10 +16,7 @@ package com.example.myownframework.Kotlin_Android.Classes.java;
 
 public abstract class AbstractClass {
 
-
-
     int salary = 0;
-
 
     public static void main(String[] args) {
 
@@ -27,12 +24,12 @@ public abstract class AbstractClass {
 
     abstract void mymethod();
 
-
-
 }
 
 
 abstract class Shape {
+
+
     // Abstract method
     abstract void draw();
 

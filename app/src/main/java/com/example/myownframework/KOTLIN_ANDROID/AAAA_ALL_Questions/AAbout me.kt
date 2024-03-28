@@ -4,11 +4,11 @@ package com.example.practiceapp.Kotlin_Android.AAAA_ALL_Questions
 
 self introduction
 ------------------
-"Hii, Good morning , this is Srinivas
+"Hii, good "morning , afternoon , evining " my self  Srinivas
 I have 6.2 years of experience as a software engineer
 I been working in the field of Android development for  6.2 years. During this time,
 I had the great opportunity to work on a variety of projects ,  i done so many applications,
-some are in playstore,
+some are in plays tore,
 some applications are direct given to clients for installations.
 
 i worked on  multiple domains like health care, educational applications, E-commerse
@@ -26,8 +26,6 @@ clean architecture
 Android Architecture Components, jetpack components and I am aware
 of using project management tools like git and  jira and agile methodology and working with asure pile lines
 and testing tools like junit, mockito and Espresso.
-
-
 
 One of my strengths as a developer is my ability to collaborate effectively with cross-functional
 teams, troubleshoot issues, including designers and product managers, to deliver high-quality applications that meet
@@ -49,7 +47,6 @@ attend client calls
 scrum calls
 
                         ----------------------------------------------
-
 
  Resume
  -------
@@ -178,7 +175,6 @@ Description:
 •	User can create bookmarks and shared with others.
 
 
-
 Responsibilities:
 
 •	Extensively involved in various phases of Software Development Life Cycle such as Requirements Analysis, Design, and Implementation in Agile environment. Taking ownership of the complete app.
@@ -227,8 +223,7 @@ Responsibilities:
 
 Environment: Kotlin, MVVM, Databinding, REST, Webservices, Retrofit2, Windows, Rabbit SVN, Gradle,                   Datastore, Retrofit.
 
-
-              Project: 5
+ Project: 5
 
 Client:    CallTracker  , India                                                                                                                     FEB 2019– AUG 2021
 Role:      Mobile Application Developer
@@ -251,9 +246,7 @@ Responsibilities:
 Environment:  Java, MVVM, Butter Knife, REST, Webservices, Retrofit, Windows, SQLite, Git, Gradle.
 
 
-
-
-              Project: 6
+Project: 6
 
 Client:    Shaira , America                                                                                                                 MAR  2017 – AUG 2021
 Role:      Mobile Application Developer

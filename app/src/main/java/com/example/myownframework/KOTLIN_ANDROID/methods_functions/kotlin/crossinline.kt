@@ -16,7 +16,7 @@ would return control flow to the caller of higherOrderFunction.
 
 Here's an example to illustrate how crossinline works : */
 
-inline fun compareInts(a:Int,b:Int, crossinline responce : (String) -> Unit) {
+inline fun compareInts(a:Int,b:Int, crossinline responce : (String) -> Unit)  {
     println("settings up comparison")
 
    val task = Runnable {
@@ -30,20 +30,44 @@ inline fun compareInts(a:Int,b:Int, crossinline responce : (String) -> Unit) {
    }
     task.run()
 
+
 }
 
+
+/*fun main() {
+
+    compareInts(4, 5) { it ->
+        println(it)
+    }
+
+}*/
+
+
+inline fun performAsyncOperation(callback: (String) -> Unit) {
+    // Simulate an asynchronous operation
+    val result = "Async operation result"
+
+    // Execute the callback in the same context
+    callback(result)
+}
 
 fun main() {
-
-    compareInts(4, 5) {
-        println(it)
+    performAsyncOperation { result ->
+        println("Result received: $result")
+        // Do some other work here...
     }
-
-    compareInts(3, 2) {
-        println(it)
-    }
-
 }
+
+
+
+
+
+/*fun main(args: Array<String>) {
+    val num = bar()
+    println(num)
+}*/
+
+
 
 
 /*In the above code, the lambda passed to higherOrderFunction cannot

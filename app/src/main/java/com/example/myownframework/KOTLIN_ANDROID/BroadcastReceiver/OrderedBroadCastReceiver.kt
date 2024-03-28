@@ -18,7 +18,7 @@ happens, the registered receivers get notified.
 There are two types of broadcast receivers:
 
 Ordered broadcasts: Synchronous broadcasts that are done in proper order.
-Normal broadcasts: Asynchronous and unordered broadcasts. These receivers run unorderly or all at a time,
+Normal broadcasts: Asynchronous and unordered broadcasts. These receivers run unordered or all at a time,
 sometimes
 
 */

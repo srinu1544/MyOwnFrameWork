@@ -2,6 +2,8 @@ package com.example.myownframework.Kotlin_Android.Others
 
 /*
 
+-> visible immediately to other threads
+
 The volatile keyword in Kotlin is used to mark a variable as volatile.
 A volatile variable is a variable that can be changed by multiple threads
 at the same time. When a variable is marked as volatile, the JVM guarantees

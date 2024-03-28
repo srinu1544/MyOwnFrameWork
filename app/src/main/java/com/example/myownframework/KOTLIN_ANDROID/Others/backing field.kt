@@ -9,23 +9,23 @@ package com.example.myownframework.Kotlin_Android.Others
 
 In Kotlin, a field is only used as a part of a property to hold its value in memory.
 Fields cannot be declared directly. However, when a property needs a backing field,
- Kotlin provides it automatically.*/
+Kotlin provides it automatically.*/
 
 
 class Student {
 
     var marks : Int = 20
         get() {
-            println(marks)  // here if you use println("$marks") means getting stack overflow error
+            println("get $field")  // here if you use println("$marks") means getting stack overflow error
             //println("$field")  // field keyword store the value "marks" property
             return field
         }
 
         set(value) {
             if (value > 0 ){
-                println("$value")
+                println("set $value")
               field = value
-                marks = value     //  here stackover flow exception
+                //marks = value     //  here stackover flow exception
             }
         }
 }
@@ -34,5 +34,5 @@ fun main() {
 
     val student = Student()
     student.marks = 55
-    println(student.marks)
+    student.marks
 }

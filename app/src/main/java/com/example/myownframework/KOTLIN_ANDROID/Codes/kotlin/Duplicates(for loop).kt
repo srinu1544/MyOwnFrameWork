@@ -12,7 +12,6 @@ fun printduplicateinString() {
             if (arr[i] == arr[j] && !duplicates.contains(arr[i])){
                 duplicates.add(arr[i])
             }
-
         }
     }
     println(duplicates)

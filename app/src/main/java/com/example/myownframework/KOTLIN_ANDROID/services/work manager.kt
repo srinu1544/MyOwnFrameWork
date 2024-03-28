@@ -2,6 +2,7 @@ package com.example.myownframework.Kotlin_Android.Services
 
 /*
 https://www.youtube.com/watch?v=Psc2xyutE2U&ab_channel=PhilippLackner
+https://www.youtube.com/watch?v=A2JetouoNSc&t=307s&ab_channel=PhilippLackner
 
 
 WorkManager (Android Architecture Components):

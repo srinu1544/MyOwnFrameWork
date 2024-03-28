@@ -1,8 +1,12 @@
 package com.example.myownframework.Kotlin_Android.Useful_words
 
 /*
+
+arbitrary     --  ఏకపక్ష
+coherent      --  పొందికైన
 deferring     --  వాయిదా వేస్తోంది
 eventually    --  చివరికి
+encountered   -- ఎదుర్కొంది
 indeed        --  నిజానికి
 Obfuscation   --  అస్పష్టత
 concurrent    --  ఏకకాలిక
@@ -20,6 +24,7 @@ distinct      --  విభిన్న
 evaluate      --  మూల్యాంకనం చేయండి
 regardless    --  సంబంధం లేకుండా
 indefinitely  --  నిరవధికంగా
+inventory     --  జాబితా
 facade        --  ముఖభాగం
 composable    --  కూర్చదగిన
 rather than   --  దానికన్నా

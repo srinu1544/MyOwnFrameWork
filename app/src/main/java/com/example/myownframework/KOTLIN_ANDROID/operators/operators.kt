@@ -8,6 +8,20 @@ please refer : https://kotlinlang.org/docs/keyword-reference.html
 Operators and special symbols
 Kotlin supports the following operators and special symbols:
 
+
+Arithmetic: +, -, *, /, % (modulo)
+Comparison: <, >, <=, >=
+Equality: ==, !=
+Logical: && (and), || (or), ! (not)
+Bitwise: &, |, ^, <<, >> (use dedicated functions for bitwise operations instead)
+Assignment: =, +=, -=, *=, etc. (augmented assignment)
+Increment/Decrement: ++, --
+Range: .., ..< (inclusive/exclusive)
+Elvis operator: ?: (null-coalescing)
+Type checking and casting: as, is
+Indexing: []
+Member access: . (dot operator)
+
 +, -, *, /, % - mathematical operators
 
 * is also used to pass an array to a vararg parameter.

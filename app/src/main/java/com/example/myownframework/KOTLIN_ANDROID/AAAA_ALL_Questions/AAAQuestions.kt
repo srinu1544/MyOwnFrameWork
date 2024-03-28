@@ -654,6 +654,20 @@ Q : play store procedure
 Q : encoding decoding
 
 
+questions asked in capgemini :
+------------------------------
+what is subcomponent in dagger2
+diff dagger and dagger2
+solid principals
+unit test cases
+flatmap
+coroutine scope
+what is suspend function
+how to get null value in let
+
+
+
+
 
 
 

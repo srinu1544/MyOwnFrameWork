@@ -21,7 +21,6 @@ public class MySingleTon {
 
 
 class SingleEx {
-
     public static void main(String[] args) {
         System.out.println(MySingleTon.getInstance().s);
     }

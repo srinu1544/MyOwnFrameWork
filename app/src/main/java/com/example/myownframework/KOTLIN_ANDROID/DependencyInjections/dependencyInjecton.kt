@@ -6,5 +6,10 @@ Dependency injection is a pattern where dependencies are passed into a class fro
 Injecting dependencies into a class allows for greater re-usability of that class
 It is a technique widely used in software engineering to eliminate coupling
 
+must study
+differences :
+-------------
+difference bw dagger and dagger2
+
 
 */

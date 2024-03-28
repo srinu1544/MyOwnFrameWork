@@ -22,7 +22,7 @@ list.filter
 
 */
 
-fun main() {
+/*fun main() {
 
 
         // lambda example
@@ -50,8 +50,27 @@ fun main() {
         val newList  = listStrings.customFilter { it.length > 4 }
         println(newList)
 
+        println(square(3))
+
+
+
+
+}*/
+
+fun main(){
+        //println(add(5,5))
+        //println(addPlus1("5"))
+        println(agediscription(23))
+}
+
+
+val square : (number : Int) -> String = { number ->
+
+        val result = number*number
+        "$number * $number = $result"
 
 }
+
 
 
 fun List<String>.customFilter(filterfunction:(String) -> (Boolean)) : List<String> {
@@ -64,6 +83,42 @@ fun List<String>.customFilter(filterfunction:(String) -> (Boolean)) : List<Strin
         }
         return result
 }
+
+fun callLambdaWithLabel(lambda: () -> Int): Int {
+        return lambda() ?: return@callLambdaWithLabel 20
+}
+
+// ignore parameter
+val add : (Int,Int,Int) -> Int = { first, _, third ->
+
+        val  result = first+third
+        result
+
+
+}
+
+// extension funtion using lambda
+val addPlus1 : String.()  ->  String = {
+        val result = this.toInt()+1
+        "$result" // this is the return
+
+}
+
+// lambda with multiple returns this is called named lambda return
+val agediscription : (Int) -> String = ageDiscription@ { age ->
+
+        if (age in 1..18){
+                return@ageDiscription "child"
+        }else if (age in 18..40){
+                return@ageDiscription "teenage"
+        }else{
+             return@ageDiscription "senior citizen"
+        }
+}
+
+
+
+
 
 
 @Preview

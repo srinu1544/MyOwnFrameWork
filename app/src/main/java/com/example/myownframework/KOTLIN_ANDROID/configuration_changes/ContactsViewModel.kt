@@ -8,8 +8,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.ViewModel
 
 class ContactsViewModel(helloword : String) : ViewModel() {
-
-
     init {
        Log.d("ContactsViewModel",helloword)
     }

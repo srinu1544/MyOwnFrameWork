@@ -17,6 +17,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 
 
+/*In Jetpack Compose, state is a value that can change
+over time and is related to updating the UI */
+
+
 
 @Preview
 @Composable

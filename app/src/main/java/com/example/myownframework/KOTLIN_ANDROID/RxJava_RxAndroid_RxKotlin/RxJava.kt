@@ -131,9 +131,6 @@ fun main() {
     val range =  Observable.range(1,15)
 
 
-
-
-
     range.subscribeOn(Schedulers.io())
     range.observeOn(Schedulers.io())
     range.subscribe{onNext -> println(onNext)}

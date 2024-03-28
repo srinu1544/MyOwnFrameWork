@@ -5,7 +5,7 @@ package com.example.myownframework.Kotlin_Android.DesignPatterns
 
 Pattern #4 👌 Facade
 The Facade pattern provides a higher-level interface that makes a set of other interfaces
- easier to use. The following diagram illustrates this idea in more.
+easier to use. The following diagram illustrates this idea in more.
 
 
 

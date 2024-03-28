@@ -1,7 +1,12 @@
 package com.example.myownframework.Kotlin_Android.ZZZZZZZZ
 
-abstract class PracticeClass {
+import java.util.Arrays
 
 
-    abstract val sal : Int
+
+
+ class PracticeClass {
+
+
+
 }

@@ -4,8 +4,8 @@ package com.example.myownframework.Kotlin_Android.Others
 -----------------
 
 Looper is a class which is used to execute the Messages(Runnables) in a queue. Normal threads have
- no such queue, e.g. simple thread does not have any queue. It executes once and after method
- execution finishes, the thread will not run another Message(Runnable).
+no such queue, e.g. simple thread does not have any queue. It executes once and after method
+execution finishes, the thread will not run another Message(Runnable).
 
 Where we can use Looper class?
 -------------------------------

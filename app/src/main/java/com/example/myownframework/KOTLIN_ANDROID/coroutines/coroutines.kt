@@ -7,6 +7,9 @@ import kotlinx.coroutines.launch
 
 
 /*
+
+
+please refer : https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-coroutine-scope/
 what is coroutine:
 ------------------
 
@@ -38,9 +41,62 @@ from 2.6 retroft supports coroutines
 
 scopes :
 ---------
+
+Coroutine scope
 Global Scope
 LifeCycle Scope
 ViewModel Scope
+
+
+coroutine scope :
+-----------------
+
+-> we can create an individual coroutine scope this is a scope we really control and where we can say
+is scope.cancel to cancel all coroutines in that scope that's very helpful if you create a custom component
+that has a lifecycle where we need coroutine in it so unless you really know what you're doing prefer
+coroutine in scope and cancel the scope as soon as you don't need the coroutine anymore
+
+Defines a scope for new coroutines. Every coroutine builder (like launch, async, etc.)
+is an extension on CoroutineScope and inherits its coroutineContext to automatically propagate
+all its elements and cancellation.
+
+
+The best ways to obtain a standalone instance of the scope are CoroutineScope() and MainScope()
+factory functions, taking care to cancel these coroutine scopes when they are no longer needed
+(see section on custom usage below for explanation and example).
+
+
+Additional context elements can be appended to the scope using the plus operator.
+
+Convention for structured concurrency
+Manual implementation of this interface is not recommended, implementation by delegation
+should be preferred instead. By convention, the context of a scope should contain an instance
+ of a job to enforce the discipline of structured concurrency with propagation of cancellation.
+
+Every coroutine builder (like launch, async, and others) and every scoping function
+(like coroutineScope and withContext) provides its own scope with its own Job instance
+into the inner block of code it runs. By convention, they all wait for all the coroutines
+inside their block to complete before completing themselves, thus enforcing the structured
+concurrency. See Job documentation for more details.
+
+every coroutine need to run inside some scope we can not run coroutine with out a coroutine scope
+it way to keep to track of all coroutines that runs inside it so coroutine scope takes coroutine context
+as a parameter and coroutine context is a set of various elements in and the main elements of coroutine
+context are the job of the coroutine its a dispatcher and coroutine name
+
+coroutine scope and coroutine context are closely related and you can say that the coroutine scope context
+is inherit so for example when a coroutine is launched inside the certain scope of another coroutine it
+inherits its context and the job of the new coroutine becomes a child job of the parent coroutine so when
+the parent coroutine is canceled all its children are canceled as well and the parent coroutine always waits
+for competition of all its children by default
+
+job + dispatcher + coroutineName
+
+
+CoroutineScope(Dispatcher.Main).launch {
+println("hello")
+}
+
 
 Global scope :
 -------------

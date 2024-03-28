@@ -57,6 +57,25 @@ Dagger 2 generates an implementation of this component at compile time.
 You typically declare the dependencies you want to use in the component interface and define the
 injection methods.
 
+@Subcomponent :
+Subcomponent are components that is like an extension to its parent component
+
+It can be used for
+
+Partition the dependencies into different compartments. Avoid the parent component to have
+too many dependencies bound to it.
+
+Subcomponent and its parent component have different scope (of lifespan).
+The subcomponent scope is smaller than its parent.
+
+Subcomponent can access all its parent bound dependencies, but not vice versa.
+The relationship is illustrated further below
+
+Use @Subcomponent to annotate on an interface (or abstract class).
+Add your subcomponent modules by adding to the Module parameter.
+Create the Builder using @Subcomponent.Builder. (Optional, but preferred
+
+
 @Inject:
 Annotates constructors, fields, or methods that Dagger 2 should use to satisfy dependencies.
 Constructor injection is commonly used to provide dependencies when an object is created.

@@ -3,6 +3,20 @@ package com.example.myownframework.Kotlin_Android.Room
 /*
 
 
+must watch this - https://www.youtube.com/watch?v=hrJZIF7qSSw&t=800s&ab_channel=PhilippLackner
+
+if we have some type of database schema that changes overtime
+if we have app already scheme running
+
+They are two types of migrations
+1 . automated migration
+2 . manual migration
+
+what is migration in room data base ?
+
+Migrations allow you to update the database schema without losing existing data
+
+
 Migrating a Room database version in an Android app typically involves making changes to
 the database schema, such as adding, removing, or modifying tables or columns.
 
@@ -19,10 +33,12 @@ column, create a new Entity class or modify the existing one accordingly.
 Increment the Database Version: Open your AppDatabase class (or whatever you named
 your Room database class) and increment the version number in the @Database annotation.
 
+if we not migrate properly we can get   java.lang.IllegalStateException: Room cannot verify the data integrity. this error
+
 For example:
 
 
-@Database(entities = {User.class}, version = 2)
+@Database(entities = {User.class}, version = 2 , exportSchema = true)
 public abstract class AppDatabase extends RoomDatabase {
     // ...
 }

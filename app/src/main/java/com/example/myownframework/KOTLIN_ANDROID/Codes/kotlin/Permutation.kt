@@ -1,3 +1,5 @@
+
+
 package com.example.myownframework.Kotlin_Android.Codes.kotlin
 
 /*
@@ -13,7 +15,7 @@ fun isPermutation(str1: String, str2: String): Boolean {
         return false
     }
 
-    val charMap = mutableMapOf<Char, Int>()
+    val charMap = mutableMapOf<Char,Int>()
     for (char in str1) {
        // charMap[char] = charMap.getOrDefault(char, 0) + 1
         charMap[char] = charMap.getOrDefault(char, 0) + 1

@@ -11,10 +11,9 @@ Services: One application provides functionality for others to use.
 
 Here are some ways to communicate between two Android applications:
 
-Have Application B expose a Service with an API defined in AIDL, and have Application A
-bind to that service.
-Send a broadcast Intent from Application A to Application B.
-Use a ContentProvider.
-Bind to a remote service in the other app.
-Use Messenger and handler to communicate.
+-> Have Application B expose a Service with an API defined in AIDL, and have Application A bind to that service.
+-> Send a broadcast Intent from Application A to Application B.
+-> Use a ContentProvider.
+-> Bind to a remote service in the other app.
+-> Use Messenger and handler to communicate.
 You can't directly access methods of Activity in different app*/
