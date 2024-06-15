@@ -14,6 +14,12 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 
+/*The children of the Box layout will be stacked over each other.
+You can use the align modifier to specify where the composable should be drawn.
+ @Composable fun BoxExample() { Box(Modifier. fillMaxSize()) {
+ Text("This text is drawn first", modifier = Modifier.*/
+
+
 @Preview
 @Composable
 fun BoxExample() {

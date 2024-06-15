@@ -1,8 +1,5 @@
 package com.example.practiceapp.Kotlin_Android.AAAA_ALL_Questions
 
-
-
-
 /*
 
 must watch :
@@ -21,6 +18,9 @@ https://www.youtube.com/watch?v=SJw3Nu_h8kk&list=PLQkwcJG4YTCSVDhww92llY3CAnc_vU
 https://www.youtube.com/shorts/SAD8flVdILY   --- view model initialization  compose
 
 https://www.youtube.com/watch?v=LFlobqW8Sy8&ab_channel=NativeMobileBits -- app with latest tech
+https://www.youtube.com/watch?v=qdnhQzVGywQ&ab_channel=PhilippLackner   -- annotations
+
+https://youtu.be/uUBcyvw3uDE?si=q75hPTf35sQv0d2B ------ hilt, retrofit , mvvm
 
 
 new things
@@ -562,6 +562,8 @@ what is "is" keyword ?
 what is "as" keyword ?
 how to send push notification from firebase
 how to send push notification from firebase for particular user.
+what is strict mode?
+
 
 
 how to check types of elements in kotlin ?
@@ -666,23 +668,9 @@ what is suspend function
 how to get null value in let
 
 
-
-
-
-
-
-
-
-
-
-
 flow
 stateflow
 sharedFlow
 livedata
-
-
-
-
 
 */

@@ -53,7 +53,7 @@ will be available throughout the application.
 
 
 @Module:
- annotation is used on classes to indicate that they provide dependencies to
+annotation is used on classes to indicate that they provide dependencies to
 the dependency injection system. It's used in conjunction with @Provides or other Dagger
 annotations to specify methods that provide instances of objects to be injected.
 
@@ -63,9 +63,9 @@ This annotation is used inside Dagger modules to denote methods that provide ins
 classes to be injected. These methods typically return the instances of the classes you want to provide.
 
 @Singleton:
- annotation is used to specify that the dependency provided by the annotated method should be
-  treated as a singleton. This means that only one instance of the provided object will be
-  created and shared throughout the application.
+annotation is used to specify that the dependency provided by the annotated method should be
+treated as a singleton. This means that only one instance of the provided object will be
+created and shared throughout the application.
 
 
 @Inject:
@@ -76,6 +76,17 @@ will automatically know how to provide instances of that class.
 @HiltViewModel:
 This annotation is used to mark ViewModels to be injected by Hilt.
 It simplifies ViewModel injection in Android apps that use Hilt for dependency injection.
+
+Android class	    Generated component                  	Scope
+Application	         SingletonComponent	                  @Singleton
+Activity	        ActivityRetainedComponent	      @ActivityRetainedScoped
+ViewModel	           ViewModelComponent              	@ViewModelScoped
+Activity	            ActivityComponent	             @ActivityScoped
+Fragment	            FragmentComponent	             @FragmentScoped
+View	                  ViewComponent	                     @ViewScoped
+View annotated with
+@WithFragmentBindings	  ViewWithFragmentComponent	          @ViewScoped
+Service	                     ServiceComponent   	          @ServiceScoped
 
 
 

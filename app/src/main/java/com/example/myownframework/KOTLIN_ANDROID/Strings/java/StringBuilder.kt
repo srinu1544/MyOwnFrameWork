@@ -26,4 +26,17 @@ trimToSize(): This method trims the capacity of the StringBuilder object to the 
 of the string.
 
 The StringBuilder class is a very useful class for string manipulation, and it is used
- in many different applications.*/
+ in many different applications.
+
+
+
+fun withArgs(vararg args: String): String {
+    return buildString {
+        append(route)
+        args.forEach { arg ->
+            append("/$arg")
+        }
+    }
+
+ */
+

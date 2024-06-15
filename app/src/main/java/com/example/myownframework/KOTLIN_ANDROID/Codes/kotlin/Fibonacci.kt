@@ -3,8 +3,6 @@ package com.example.myownframework.Kotlin_Android.Codes.kotlin
 fun main(){
 
     val fibonacci = arrayListOf<Int>()
-
-
     var n1 = 0
     var n2 = 1
     var n3 = 0

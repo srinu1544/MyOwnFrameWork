@@ -46,12 +46,27 @@ you can easily end up with code that is difficult to read and maintain
 lateinit var myVariable: String
 
 fun myFunction() {
-    myVariable = "Hello, world!"
-    println(myVariable)
+   // myVariable = "Hello, world!"
+    //println(myVariable)
 }
 
 
 fun main() {
+
     myFunction()
+
+
+
+    if (::myVariable.isInitialized) {
+        println(myVariable)
+    } else {
+        println("Name is not initialized yet.")
+    }
 }
+
+
+
+// how to know lateinit val initilized or not
+
+
 

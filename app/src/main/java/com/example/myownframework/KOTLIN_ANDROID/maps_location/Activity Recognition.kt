@@ -24,6 +24,112 @@ TILTING: When the mobile device is being lifted and is having some angle with th
 UNKNOWN: The Activity Recognition Client will show this result when the device is unable to detect any activity on the mobile device.
 
 
+-> 1. Dependencies:
+
+Add the required dependency to your app-level build.gradle file:
+
+dependencies {
+  implementation 'com.google.android.gms:play-services-location:+'
+}
+
+-> 2. Permissions:
+
+Declare the following permissions in your AndroidManifest.xml:
+
+XML
+<uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+-> 3. Activity Detection Service:
+
+Create a service to handle activity recognition updates:
+
+
+class ActivityDetectionService : IntentService(TAG) {
+
+  override fun onCreate() {
+    super.onCreate()
+  }
+
+  override fun onHandleIntent(intent: Intent?) {
+    val result = ActivityRecognitionResult.extractResult(intent)
+    val detectedActivities = result.probableActivities as ArrayList<*>
+
+    // Process detected activities here (update UI, etc.)
+    for (activity in detectedActivities) {
+      val detectedActivity = activity as DetectedActivity
+      val activityType = detectedActivity.type
+      val confidence = detectedActivity.confidence
+
+      // Handle specific activity types (STILL, WALKING, RUNNING, etc.)
+      when (activityType) {
+        DetectedActivity.STILL -> {
+          // User is likely not moving
+        }
+        DetectedActivity.WALKING -> {
+          // User is likely walking
+        }
+        DetectedActivity.RUNNING -> {
+          // User is likely running
+        }
+        DetectedActivity.IN_VEHICLE -> {
+          // User is likely driving
+        }
+      }
+    }
+  }
+
+  companion object {
+    private val TAG = ActivityDetectionService::class.java.simpleName
+  }
+}
+
+-> 4. Requesting Activity Updates:
+
+In your main activity or any relevant class, request activity updates:
+
+
+fun requestActivityUpdates() {
+  val activities = listOf(
+      ActivityTransition.Builder()
+          .setActivityType(DetectedActivity.STILL)
+          .build(),
+      ActivityTransition.Builder()
+          .setActivityType(DetectedActivity.WALKING)
+          .build(),
+      ActivityTransition.Builder()
+          .setActivityType(DetectedActivity.RUNNING)
+          .build(),
+      ActivityTransition.Builder()
+          .setActivityType(DetectedActivity.IN_VEHICLE)
+          .build()
+  )
+
+  val intent = ActivityRecognitionClient.getPendingIntent(this, activityRequestCode)
+  val client = ActivityRecognitionClient.getClient(this)
+  client.requestActivityUpdates(activityDetectionPendingIntent, activities)
+}
+
+-> 5. Unregistering Updates:
+
+Don't forget to unregister for updates when your activity is destroyed:
+
+override fun onDestroy() {
+  super.onDestroy()
+  val client = ActivityRecognitionClient.getClient(this)
+  client.removeActivityUpdates(activityDetectionPendingIntent)
+}
+Use code with caution.
+Explanation:
+
+The ActivityDetectionService handles incoming activity updates and allows processing the detected activities (e.g., updating UI).
+We request updates for specific activity types (STILL, WALKING, RUNNING, IN_VEHICLE) using ActivityTransition objects.
+A PendingIntent is used to receive activity updates through an intent.
+The ActivityRecognitionClient is used to request and remove activity updates.
+
+
+
+
 
      broadcastReceiver = object : BroadcastReceiver() {
             override fun onReceive(context: Context, intent: Intent) {
@@ -68,6 +174,6 @@ UNKNOWN: The Activity Recognition Client will show this result when the device i
             }
         }
 
-
+       
 
  */

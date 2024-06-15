@@ -11,27 +11,6 @@ public class Demo {
 
      public static void main(String[] args) {
 
-
-          TreeSet<Integer> ints = new TreeSet<Integer>();
-
-          ints.add(1);
-          ints.add(1);
-          ints.add(1);
-          ints.add(2);
-          ints.add(4);
-
-          StringBuilder stringBuilder = new StringBuilder();
-          for (Integer element : ints) {
-               stringBuilder.append(element).append(", ");
-          }
-
-          // Remove the trailing comma and space if any elements are present
-          if (stringBuilder.length() > 0) {
-               stringBuilder.setLength(stringBuilder.length() - 2);
-          }
-
-          System.out.println(stringBuilder.toString());
-
      }
 
 

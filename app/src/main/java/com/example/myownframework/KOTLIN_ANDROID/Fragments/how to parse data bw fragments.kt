@@ -21,8 +21,7 @@ public interface DataListener {
 Implement the Interface (Optional):
 In FragmentB, implement the interface you created in FragmentA.
 
-java
-Copy code
+
 public class FragmentB extends Fragment implements FragmentA.DataListener {
 
 

@@ -86,7 +86,7 @@ fold() - in collection
 
 
 // higher order function example 1
-fun higherOrder( x:Int, operation : (Int) -> Int) : Int {
+fun higherOrder(x:Int, operation : (Int) -> Int) : Int {
     return operation(x)
 }
 
@@ -103,7 +103,7 @@ fun higherOrder2(a:Double,b:Double, fn: (Double,Double) -> Double) : Any  {
 
 fun rollDice(range : IntRange, time : Int, callback : (result:Int) -> Unit) {
 
-    for (i in 0 until time){
+    for (i in 0 until time) {
         val result = range.random()
         callback(result)
     }
