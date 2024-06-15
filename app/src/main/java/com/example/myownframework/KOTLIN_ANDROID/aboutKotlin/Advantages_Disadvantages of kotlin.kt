@@ -3,7 +3,7 @@ package com.example.myownframework.Kotlin_Android.AboutKotlin
 /*
 
 Advantages and disadvantages of Kotlin language:
-----------------------------------
+------------------------------------------
 
 Easy to learn – Basic is almost similar to java.If anybody worked in java then easily understand in no
 time.

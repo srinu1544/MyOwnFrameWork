@@ -22,7 +22,7 @@ the main thread or freezing the UI.
 in a more sequential and structured manner.
 
 -> They are the part of kotlin library and provide a way to perform concurrent operations with
-out dealing with the complexities of traditional call b ack or thread - based approaches.
+out dealing with the complexities of traditional call back or thread - based approaches.
 
 
 
@@ -171,7 +171,7 @@ async :
 -> async can be on the background thread.
 
 runBlocking :
-----------
+-------------
 -> it blocks our thread
 -> it blocks the current thread
 -> it is also block onDraw function for updating ui and it will lead to unresponsive application.

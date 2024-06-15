@@ -1,6 +1,23 @@
 package com.example.myownframework.Kotlin_Android.Fragments
 
-/*In Android app development, a fragment is a modular and reusable component that represents a portion of a user interface or behavior within an activity. Fragments were introduced to allow developers to create more flexible and responsive UIs, especially for larger screens or multi-pane layouts. Fragments have their own lifecycle and can be combined within an activity to create complex and dynamic user interfaces.
+/*
+
+adding androidx fragment dependency :
+--------------------------------------
+
+
+    val fragment_version = "1.6.2"
+
+    // Java language implementation
+    implementation ("androidx.fragment:fragment:$fragment_version")
+    // Kotlin
+    implementation ("androidx.fragment:fragment-ktx:$fragment_version")
+    // Testing Fragments in Isolation
+    debugImplementation ("androidx.fragment:fragment-testing:$fragment_version")
+
+
+
+In Android app development, a fragment is a modular and reusable component that represents a portion of a user interface or behavior within an activity. Fragments were introduced to allow developers to create more flexible and responsive UIs, especially for larger screens or multi-pane layouts. Fragments have their own lifecycle and can be combined within an activity to create complex and dynamic user interfaces.
 
 Here are some key aspects of fragments and their lifecycle:
 

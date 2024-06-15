@@ -58,6 +58,36 @@ presentation layer (ui)
 Domain layer  (business layer)
 Data Layer    (repository)
 
+disadvantages :
+----------------
+
+Clean architecture can have some disadvantages for Android apps, including:
+Learning curve
+It can take some time to understand how all the layers work together,
+especially if you are coming from patterns like simple MVVM or MVP.
+
+Complexity
+
+Clean architecture's emphasis on separation of concerns and layering can
+result in increased complexity, making it harder to reason about the performance
+characteristics of an application.
+
+Extra classes
+Clean architecture adds a lot of extra classes, so it's not ideal for low-complexity projects.
+
+Extra effort
+Each layer requires its own interfaces, rules, and dependencies,
+ which can add extra effort and time to design and implement.
+
+Abstraction and indirection
+Clean architecture can introduce abstraction and indirection which make the code more
+difficult to comprehend and debug.
+
+Use cases
+Clean architecture stresses on use cases, and if the software architect
+ creates use cases for each of these “read” and “write” operations,
+ then the number of use cases will be really high
+
 */
 
 @Preview
