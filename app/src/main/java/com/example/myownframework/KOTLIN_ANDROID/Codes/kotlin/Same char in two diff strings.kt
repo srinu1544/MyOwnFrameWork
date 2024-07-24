@@ -3,8 +3,7 @@ package com.example.myownframework.Kotlin_Android.Codes.kotlin
 
 
 fun main(){
-
-   val b = chars()
+    val b = chars()
     println(b)
 }
 
@@ -28,16 +27,11 @@ fun chars() : Boolean {
         charCountMap2[char] = charCountMap2.getOrDefault(char,0)+1
     }
 
-    println(charCountMap1)
-    println(charCountMap2)
+    //print(charcountmap1 == charcountmap2)
+    if (charCountMap1 == charCountMap2){
+        return true
+    }else false
 
-
-    if (charCountMap1 == charCountMap2) {
-       return true
-    } else {
-       return false
-    }
-
-
+    return false
 }
 
