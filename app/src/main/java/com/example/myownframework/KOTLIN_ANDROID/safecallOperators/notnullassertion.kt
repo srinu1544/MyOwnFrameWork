@@ -9,8 +9,7 @@ If anyone want NullPointerException then he can ask explicitly
  using this operator.*/
 
 
-
-    fun main(args: Array<String>) {
+        fun main(args: Array<String>) {
         var str : String?  = "GeeksforGeeks"
         println(str!!.length)
         str = null

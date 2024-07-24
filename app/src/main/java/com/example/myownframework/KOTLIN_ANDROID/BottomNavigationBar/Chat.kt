@@ -22,7 +22,6 @@ import androidx.navigation.NavController
 import com.example.bottonnavbar.bottomNavBar.ui.theme.BottonNavBarTheme
 import com.example.myownframework.R
 
-
 @Composable
 fun Chat(navController: NavController) {
     BottonNavBarTheme {

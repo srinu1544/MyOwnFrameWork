@@ -14,10 +14,9 @@ fun isPalindromeUsingFor() {
 
     // using for loop
 
+    // Palindrome
     val name = "madam"
-
     val arr = name.toCharArray()
-
     var reverse = ""
 
     for (i in arr.size-1 downTo 0){

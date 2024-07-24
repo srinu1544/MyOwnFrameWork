@@ -14,7 +14,6 @@ fun isPermutation(str1: String, str2: String): Boolean {
     if (str1.length != str2.length) {
         return false
     }
-
     val charMap = mutableMapOf<Char,Int>()
     for (char in str1) {
        // charMap[char] = charMap.getOrDefault(char, 0) + 1
@@ -26,10 +25,8 @@ fun isPermutation(str1: String, str2: String): Boolean {
         if (count == null || count == 0) {
             return false
         }
-
         charMap[char] = count - 1
     }
-
     return true
 }
 

@@ -1,37 +1,27 @@
 package com.example.myownframework.Kotlin_Android.ZZZZZZZZ
 
-import java.util.Arrays
+import androidx.compose.runtime.remember
+import com.example.myownframework.Kotlin_Android.Codes.kotlin.isPrimeNumber
+import com.example.myownframework.Kotlin_Android.Constants.Constants
 
 
-fun main() {
+fun main(){
 
-    val fibonacci = mutableListOf<Int>()
-
-    var n1 = 0
-    var n2 = 1
-
-    var n3 = 0
-
-    val count = 20
-
-
-    fibonacci.add(n1)
-    fibonacci.add(n2)
-
-    for (i in 0 until count){
-        n3 = n1 + n2
-        fibonacci.add(n3)
-        n1 = n2
-        n2 = n3
-    }
-
-    println(fibonacci)
-
-
-
-
-
+    val result = Constants.NAME
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
