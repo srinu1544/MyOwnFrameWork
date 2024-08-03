@@ -3,19 +3,15 @@ package com.example.myownframework.Kotlin_Android.Scope_Functions
 /* if you want to do some additional object configurations or operations *
 
 Return - context object
-context - it
-
-
- */
+context - it */
 
 
 class Person3 {
-
     var name = "srinivas"
 }
 
 
-fun main(){
+fun main() {
 
     val persion3 = Person3()
     persion3.also {

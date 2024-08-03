@@ -1,37 +1,29 @@
 package com.example.myownframework.Kotlin_Android.ZZZZZZZZ
 
-import java.util.Arrays
-
-
 fun main() {
 
-    val fibonacci = mutableListOf<Int>()
 
-    var n1 = 0
-    var n2 = 1
+    val name = "madam"
+    val arr = name.toCharArray()
+    var reverse = ""
 
-    var n3 = 0
-
-    val count = 20
-
-
-    fibonacci.add(n1)
-    fibonacci.add(n2)
-
-    for (i in 0 until count){
-        n3 = n1 + n2
-        fibonacci.add(n3)
-        n1 = n2
-        n2 = n3
+    for(i in arr.size-1 downTo 0) {
+        reverse += arr[i]
     }
 
-    println(fibonacci)
-
-
-
-
-
+    if (name != reverse){
+        println("given string is not palindrome")
+    }else {
+        println("given string is palindrome")
+    }
 }
+
+
+
+
+
+
+
 
 
 

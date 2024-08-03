@@ -5,7 +5,12 @@ Design patterns :
 
 What Does Design Pattern Mean?
 
-A design pattern is a repeatable solution to a software engineering problem. Unlike most program-specific solutions, design patterns are used in many programs. Design patterns are not considered finished products; rather, they are templates that can be applied to multiple situations and can be improved over time, making a very robust software engineering tool. Because development speed is increased when using a proven prototype, developers using design pattern templates can improve coding efficiency and final product readability.
+A design pattern is a repeatable solution to a software engineering problem.
+Unlike most program-specific solutions, design patterns are used in many programs.
+Design patterns are not considered finished products; rather, they are templates
+that can be applied to multiple situations and can be improved over time, making a
+very robust software engineering tool. Because development speed is increased when using a
+proven prototype, developers using design pattern templates can improve coding efficiency and final product readability.
 
 Pattern #1 👌 Singleton
 Pattern #2 👌 Factory
