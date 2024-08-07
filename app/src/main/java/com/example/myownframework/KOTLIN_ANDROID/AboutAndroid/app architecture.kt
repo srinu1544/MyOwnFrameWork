@@ -19,10 +19,10 @@ Keep in mind that mobile devices are also resource-constrained, so at any time, 
 system might kill some app processes to make room for new ones.
 
 Given the conditions of this environment, it's possible for your app components to be launched
- individually and out-of-order, and the operating system or user can destroy them at any time.
-  Because these events aren't under your control, you shouldn't store or keep in memory any
-  application data or state in your app components, and your app components shouldn't depend
-  on each other.
+individually and out-of-order, and the operating system or user can destroy them at any time.
+Because these events aren't under your control, you shouldn't store or keep in memory any
+application data or state in your app components, and your app components shouldn't depend
+on each other.
 
 Common architectural principles
 If you shouldn't use app components to store application data and state, how should you design

@@ -1,5 +1,10 @@
 package com.example.myownframework.Kotlin_Android.AboutAndroid
 
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.tooling.preview.Preview
+import com.example.myownframework.Kotlin_Android.Utils.Utils
+import com.example.myownframework.R
+
 /*DVM stands for Dalvik Virtual Machine.
  It's a virtual machine that executes Android applications.
  DVM is optimized for memory, battery life, and performance.
@@ -23,3 +28,9 @@ Optimizes the virtual machine for memory, battery life, and performance
 Converts class files into .dex files
 Converts multiple class files into dex files
 The DVM converts bytecode every time a specific app is launched */
+
+@Preview
+@Composable
+fun DVMImage(){
+    Utils.AndroidArch(R.drawable.dvm)
+}

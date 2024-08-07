@@ -3,6 +3,23 @@ package com.example.myownframework.Kotlin_Android.Utils
 import android.app.Activity
 import android.content.Intent
 import android.view.View
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Column
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.tooling.preview.Preview
+import com.bumptech.glide.load.resource.drawable.DrawableResource
+import com.example.myownframework.R
+
+
+object Utils {
+    @Composable
+    fun AndroidArch(id : Int) {
+        Column {
+            Image(painter = painterResource(id = id), contentDescription = null)
+        }
+    }
+}
 
 
 // for stating a activity
