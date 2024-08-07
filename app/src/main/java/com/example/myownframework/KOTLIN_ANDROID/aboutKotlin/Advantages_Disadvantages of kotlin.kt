@@ -76,7 +76,7 @@ Since Kotlin is relatively newer compared to Java, there are fewer experienced K
 which might make hiring more challenging.
 
 Conclusion
----------
+----------
 Kotlin offers many modern language features that can lead to more concise, safer,
 and expressive code, making it a strong choice for Android development and other
 JVM-based projects. However, it comes with its own set of challenges, including a
