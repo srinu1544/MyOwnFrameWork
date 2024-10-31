@@ -35,7 +35,7 @@ deferred      --  వాయిదా పడింది
 often         --  తరచుగా
 enforcing     --  అమలు చేయడం
 versatile     --  బహుముఖ
-artifact
+artifact      --
 
 concurrency :
 -------------

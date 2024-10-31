@@ -2,6 +2,19 @@ package com.example.myownframework.Kotlin_Android.Codes.kotlin
 
 fun main() {
 
+    val nums = intArrayOf(3, 7, 11, 15)
+    val target = 9
+
+    // Call the twoSumIndex function
+    val result = twoSumIndex(nums, target)
+
+    // Print the result
+    if (result.isNotEmpty()) {
+        println("Indices: ${result[0]}, ${result[1]}")
+    } else {
+        println("No solution found.")
+    }
+
 }
 // two sum with index
 

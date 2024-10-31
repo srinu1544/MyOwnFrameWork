@@ -5,27 +5,18 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
-
 /*
-
-
 please refer : https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-coroutine-scope/
+
 what is coroutine:
 ------------------
-
 -> coroutines are light weight thread
-
 -> Coroutines are available for Kotlin. They execute long-running tasks without blocking
 the main thread or freezing the UI.
-
 -> In kotlin coroutines are a feature that allows you to write asynchronous , non-blocking code
 in a more sequential and structured manner.
-
 -> They are the part of kotlin library and provide a way to perform concurrent operations with
 out dealing with the complexities of traditional call b ack or thread - based approaches.
-
-
-
 
 suspend function :
 ------------------
@@ -37,7 +28,7 @@ and cleaner way
 -> In this function network request will be called asynchronously in the io thread and get the
 result and process in the main thread
 
-from 2.6 retroft supports coroutines
+from 2.6 retroft supports coroutinesq
 
 scopes :
 ---------
@@ -157,9 +148,6 @@ await :
 -> blocking the main thread
 ->  await retrieves the result.
 -> Await can be used on the main thread
-
-
-
 
 async :
 -------

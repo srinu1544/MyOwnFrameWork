@@ -10,17 +10,14 @@ P(n,r) = n!/(n-r)!
 */
 
 fun isPermutation(str1: String, str2: String): Boolean {
-
     if (str1.length != str2.length) {
         return false
     }
-
     val charMap = mutableMapOf<Char,Int>()
     for (char in str1) {
        // charMap[char] = charMap.getOrDefault(char, 0) + 1
         charMap[char] = charMap.getOrDefault(char, 0) + 1
     }
-
     for (char in str2) {
         val count = charMap[char]
         if (count == null || count == 0) {

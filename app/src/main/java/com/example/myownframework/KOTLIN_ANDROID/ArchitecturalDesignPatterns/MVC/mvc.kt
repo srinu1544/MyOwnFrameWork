@@ -2,25 +2,69 @@ package com.example.myownframework.Kotlin_Android.ArchitecturalDesignPatterns.MV
 
 /*MVC: Model-View-Controller
 ---------------------------
-The controller and the view component have a one-to-many relationship.
-As the name suggests, MVC contains 3 components. Model, View, and Controller.
+In Android, the MVC (Model-View-Controller) architecture is one of the older architectural patterns,
+though it’s less common nowadays in favor of more modern patterns like MVVM or MVI. Nevertheless,
+understanding MVC can be helpful as it forms the basis for understanding other architectures.
+Here’s an example of how MVC might be implemented in an Android application:
 
-MVC separates the application logic.
+1. Model
+The Model represents the data layer. It handles the business logic and communication with the
+database or network.
 
-1. Model:
-The model represents the data classes that hold data from the controller or view. It also
-handles different data manipulation methods that are required for business logic.
+Example: A simple User class with properties like name and email, and methods to fetch user data.
+
+data class User(val name: String, val email: String)
+class UserRepository {
+    fun getUser(): User {
+        // This would normally fetch data from a database or network
+        return User(name = "John Doe", email = "john.doe@example.com")
+    }
+}
 
 2. View
-The view is the UI representation classes that face the users and handle interactions
-with the XML, Activity, and Fragments. It also makes requests to the controller class upon
-the different user interactions.
+The View is responsible for the UI. It displays data to the user and sends user actions to the Controller.
+Example: An Activity or Fragment that displays user information.
 
+class UserActivity : AppCompatActivity() {
+
+   private lateinit var controller: UserController
+     override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_user)
+        controller = UserController(this)
+        controller.getUserInfo()
+    }
+
+    fun displayUserInfo(user: User) {
+        // Assuming there are TextViews with these IDs
+        findViewById<TextView>(R.id.nameTextView).text = user.name
+        findViewById<TextView>(R.id.emailTextView).text = user.email
+    }
+}
 3. Controller
-The controller is responsible for handling the incoming request from the view class,
-performing operations on the model classes, and passing them back to the view class for
-the user. Mostly controller contains the API call logic and other calculations.
+The Controller acts as an intermediary between the Model and the View. It responds to user input from the View and updates the Model or View accordingly.
+Example: A UserController that handles the logic of fetching the user data and updating the View.
 
-The view handles all the presentation, and the controller tells the model and view what to
-perform. MVC codes are easy to maintain and can be used for small-scale applications.
-MVC can be more complex and hard to understand in terms of complexity and updates.*/
+class UserController(private val view: UserActivity) {
+
+    private val userRepository = UserRepository()
+    fun getUserInfo() {
+        val user = userRepository.getUser()
+        view.displayUserInfo(user)
+    }
+}
+How it works:
+View (UserActivity) starts and creates an instance of the Controller (UserController).
+The Controller requests data from the Model (UserRepository).
+The Model fetches or creates the data and sends it back to the Controller.
+The Controller updates the View with the data.
+
+Advantages :
+Separation of Concerns: Each component has a clear responsibility.
+Reusability: The Model can be reused in different Views.
+
+Disadvantages:
+Complexity: As the application grows, the Controller can become bloated with logic.
+Tight Coupling: The View and Controller are often tightly coupled, making unit testing difficult.
+For modern Android development, it's recommended to use patterns like MVVM, which better separates
+concerns and supports testability.*/

@@ -1,6 +1,13 @@
 package com.example.myownframework.Kotlin_Android.Scope_Functions
 
-/*if you want to operate on a null-object
+/*
+
+with
+Usage Scenarios
+---------------
+with is useful when you need to perform multiple operations on an object without
+having to refer to it multiple times. Instead of repeating the object name,
+you can access its properties and methods directly within the lambda.
 
 In Kotlin, the with function is a higher-order function that is often used to simplify code
 when working with an object. It allows you to call multiple functions on an object without

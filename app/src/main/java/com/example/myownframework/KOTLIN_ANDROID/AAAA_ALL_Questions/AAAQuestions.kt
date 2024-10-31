@@ -238,12 +238,10 @@ navigation (xml)       @#      (code is in own framework project)
 navigation (compose)   @#     (code is in own framework project)
 what is a Repository?  @#
 
-
 code
 -----
 duplicates
 array list
-
 
 architectural pattern
 ---------------------
@@ -257,8 +255,6 @@ Singleton pattern,
 Builder pattern,
 and prototype pattern are examples of creational design patterns.
 These are mainly involved with the creation of objects.
-
-
 
 Threads
 -------
@@ -280,9 +276,24 @@ how to write parallel tasks
 
 codes have to write
 --------------------
-print duplicates in a given string
-palendrom
-fibonacci
+1. print duplicates in a given string
+2.print duplicates in a given intArray
+3.print with out duplicates in given  string
+4.print with out duplicates in given intArray
+5.palindrome (if reverse also same sting)
+6.fibonacci (0+1+1+2+3+5+8+13+21+34)) before two strings add
+7.Two Sum
+8.factorial (5! = 5*4*3*2*1)
+9.Get in list
+10.prime number (2,3,5,7,11,13,17,19)
+11.reverse string
+12.reverse int
+13.sorting array
+14.sorting string with length
+15.remove list above 14 in array
+16.sorting with length
+17.Merge two sorted arrays.
+
 
 
 Database
@@ -475,6 +486,9 @@ ans : A Handler in Kotlin is a class that allows you to schedule and execute tas
 
 HandlerThread :
  A thread handler is a class that uses three main components to handle these actions
+
+ how to call OnDestroy method with out call onPause and onStop methods
+ Ans : when we finish() method call in onCreate
 
 
 What is ADB? - any ADB commands - @#

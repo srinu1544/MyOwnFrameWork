@@ -8,7 +8,7 @@ properties and methods associated with those constants.*/
 
 
 /*
-when you use enun class
+when you use enum class
 
 -> when you have a finite number of const values you can group them together in something called enum
 -> Enum objects are constant values once create them can not be changed

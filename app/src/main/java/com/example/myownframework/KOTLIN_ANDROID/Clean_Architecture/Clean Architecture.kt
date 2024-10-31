@@ -13,6 +13,36 @@ import com.example.myownframework.R
 
 
 /*
+com.example.hiltretrofit
+├── di
+│   └── NetworkModule.kt
+├── data
+│   ├── model
+│   │   └── Post.kt
+│   ├── repository
+│   │   └── PostRepository.kt
+│   └── source
+│       ├── remote
+│       │   └── ApiService.kt
+│       └── local
+│           └── LocalDataSource.kt
+├── domain
+│   ├── model
+│   │   └── PostDomain.kt
+│   ├── repository
+│   │   └── PostRepositoryInterface.kt
+│   └── usecase
+│       └── GetPostsUseCase.kt
+├── presentation
+│   ├── ui
+│   │   └── MainActivity.kt
+│   └── viewmodel
+│       └── PostViewModel.kt
+├── MyApplication.kt
+└── HiltTestRunner.kt
+
+
+
 refer : separate app composepaging3Cache
 
 please refer :

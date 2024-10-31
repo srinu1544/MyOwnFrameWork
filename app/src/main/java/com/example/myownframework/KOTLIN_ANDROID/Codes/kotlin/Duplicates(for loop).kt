@@ -62,7 +62,7 @@ fun printduplicateinIntArray() {
 
 fun printWithOutDuplicatesInIntArray() {
 
-    val arr = arrayOf(1,2,3,4,4,4,4,5,5,6,66)
+    val arr = arrayOf(1,2,3,4,4,4,4,5,5,6,66,7)
     val duplicates = mutableListOf<Int>()
 
     for (i in 0 until arr.size) {
@@ -78,11 +78,42 @@ fun printWithOutDuplicatesInIntArray() {
 // output [1, 2, 3, 4, 5, 6, 66]
 
 
-fun main() {
-  /*  printduplicateinString()
-    printWithOutDuplicatesInString()
-    printduplicateinIntArray()
-    printWithOutDuplicatesInIntArray()*/
+// with set
+fun printDuplicatesInString() {
+    val str = "srinivas"
+    val mutableSet = mutableSetOf<Char>()
+
+    str.forEach { char ->
+        if (!mutableSet.add(char)){
+            println(char)
+        }
+    }
 }
+
+// with map
+fun printDuplicatesInStrin() {
+    val str = "srinivas"
+    val charCount = mutableMapOf<Char, Int>()
+
+    str.forEach { char ->
+        charCount[char] = charCount.getOrDefault(char, 0) + 1
+    }
+
+    charCount.filter { it.value > 1 }
+        .forEach { (char, _) ->
+            println(char)
+        }
+}
+
+
+fun main() {
+    //printduplicateinString()
+    //printWithOutDuplicatesInString()
+    //printduplicateinIntArray()
+    printWithOutDuplicatesInIntArray()
+}
+
+
+
 
 

@@ -13,11 +13,8 @@ fun findlastRepeated() : Char? {
     val mutableList = mutableMapOf<Char, Int>()
 
     for (char in name) {
-        mutableList[char] = (mutableList[char] ?: 0) + 1
+        mutableList[char] = mutableList.getOrDefault(char,0)+ 1
     }
-
-    println(mutableList)
-
     for (i in name.length - 1 downTo 0) {
         if (mutableList[name[i]] == 2) {
             return name[i]

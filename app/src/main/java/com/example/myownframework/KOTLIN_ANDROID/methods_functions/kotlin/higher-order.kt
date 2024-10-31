@@ -90,7 +90,6 @@ fun higherOrder( x:Int, operation : (Int) -> Int) : Int {
     return operation(x)
 }
 
-
 fun add(a:Double,b:Double) : Double {
     return a*b
 }
@@ -100,14 +99,11 @@ fun higherOrder2(a:Double,b:Double, fn: (Double,Double) -> Double) : Any  {
 }
 
 //higher order example 3
-
-fun rollDice(range : IntRange, time : Int, callback : (result:Int) -> Unit) {
-
+fun rollDice(range : IntRange, time : Int, callback : (Int) -> Unit) {
     for (i in 0 until time){
         val result = range.random()
         callback(result)
     }
-
 }
 
 
@@ -140,7 +136,7 @@ fun generateMultiplier(factor: Int) : (Int) -> Int {
  }
 
 
-fun singeleOperations(x:Int,op : (Int) -> Int) : Int {
+fun singeleOperations(x:Int, op : (Int) -> Int) : Int {
     return op(x)
 }
 

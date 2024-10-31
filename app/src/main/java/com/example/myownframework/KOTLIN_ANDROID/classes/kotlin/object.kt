@@ -28,3 +28,15 @@ To access the properties and methods of an object, you use the dot notation.
 For example,the following code prints the values of the x and y properties of the MyObject object:
 
 MyObject.print()*/
+
+
+object Singleton {
+
+    fun print(){
+        println("hello")
+    }
+}
+
+fun main(){
+    Singleton.print()
+}

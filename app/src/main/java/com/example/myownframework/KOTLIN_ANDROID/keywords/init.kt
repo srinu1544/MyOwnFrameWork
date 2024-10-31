@@ -1,9 +1,5 @@
 package com.example.myownframework.Kotlin_Android.Keywords
-
-
 /*
-
-
 init keyword is used in Kotlin to initialize properties of a class.
 It is similar to the constructor keyword in Java, but it is more flexible.
 The init keyword can be used to initialize properties before or after the constructor is called.

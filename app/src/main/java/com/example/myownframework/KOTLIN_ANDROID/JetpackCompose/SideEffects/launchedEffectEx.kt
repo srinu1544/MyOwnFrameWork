@@ -12,23 +12,29 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.tooling.preview.Preview
+
+/*LaunchedEffect is used to create side effects in Composable.
+It launches the suspend function and retains the state due to recomposition.
+LaunchedEffect takes a key, so the LaunchedEffect will run anew only when the key changes.*/
+
+
+fun main (){
+
+}
 
 @Composable
-fun LaunchedEffectEx(){
+fun LaunchedEffectEx() {
 
     val context = LocalContext.current
 
-
-    var state by remember{
+    var state by remember {
         mutableStateOf(false)
-
     }
 
-    LaunchedEffect(key1 = state){
+    LaunchedEffect(key1 = state) {
         Toast.makeText(context,"hello", Toast.LENGTH_SHORT).show()
     }
-
-
 
     Text(
         text = "Hello",
@@ -36,4 +42,10 @@ fun LaunchedEffectEx(){
     )
 
 
+}
+
+@Preview
+@Composable
+fun preview() {
+    LaunchedEffectEx()
 }

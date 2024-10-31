@@ -10,17 +10,13 @@ classes can be useful when making an instance of an object with certain “extra
 
 /*
 interface OnClickListener {
-
-    fun onClick()
-
+   fun onClick()
 }
 
 fun main(){
 
     object : com.example.practiceapp.Kotlin_Android.classes.anonymous.OnClickListener {
-
-        override fun onClick() {
-
+         override fun onClick() {
             // do something when the button is clicked
         }
 
@@ -43,12 +39,10 @@ interface Human{
 }
 
 fun main() {
-
-    var programmer : Human = object :
-        Human {
+    object : Human {
         override fun think() {
             println("human think")
         }
     }
-    programmer.think()
+
 }

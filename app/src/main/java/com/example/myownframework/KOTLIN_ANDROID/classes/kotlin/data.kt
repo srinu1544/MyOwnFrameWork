@@ -33,8 +33,7 @@ println(user3.age) // prints 25
 
 
 println(user1 == user3) // prints true
-Use code with caution.
-Learn more
+
 As you can see, the User data class is a concise and efficient way to store data.
 It provides some useful functions that make it easy to work with the data.
 
@@ -90,7 +89,10 @@ copy()
 */
 
 
-data class Person(val name : String , val age : Int)
+data class Person(
+    val name : String ,
+    val age : Int
+)
 
 
 fun main(){

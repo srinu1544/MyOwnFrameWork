@@ -29,7 +29,6 @@ public abstract class AbstractClass {
 
 abstract class Shape {
 
-
     // Abstract method
     abstract void draw();
 

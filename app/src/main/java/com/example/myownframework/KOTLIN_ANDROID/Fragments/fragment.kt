@@ -1,6 +1,8 @@
 package com.example.myownframework.Kotlin_Android.Fragments
 
-/*In Android app development, a fragment is a modular and reusable component that represents a portion of a user interface or behavior within an activity. Fragments were introduced to allow developers to create more flexible and responsive UIs, especially for larger screens or multi-pane layouts. Fragments have their own lifecycle and can be combined within an activity to create complex and dynamic user interfaces.
+/*In Android app development, a fragment is a modular and reusable component that represents a portion of a user interface or behavior within an activity.
+ Fragments were introduced to allow developers to create more flexible and responsive UIs, especially for larger screens or multi-pane layouts. Fragments
+ have their own lifecycle and can be combined within an activity to create complex and dynamic user interfaces.
 
 Here are some key aspects of fragments and their lifecycle:
 
@@ -18,6 +20,19 @@ onStop(): Fragment is no longer visible.
 onDestroyView(): The fragment's UI is being destroyed.
 onDestroy(): Fragment is being destroyed.
 onDetach(): Fragment is detached from the activity.
+
+Fragment Types :
+----------------
+Normal Fragment: The standard type used for modular UI components.
+DialogFragment: A fragment that displays a dialog window.
+ListFragment: A fragment that displays a list of items.
+PreferenceFragmentCompat: A fragment to display a hierarchy of preferences.
+
+Advantages of Fragments :
+-------------------------
+Modularization: Fragments allow for smaller, manageable UI components that can be reused.
+Adaptability: They can help adjust UIs based on different screen sizes and orientations (e.g., phone vs. tablet).
+Back Stack Management: The ability to manage fragment transactions and provide smooth user navigation within an activity.
 
 
 Fragment Transactions:

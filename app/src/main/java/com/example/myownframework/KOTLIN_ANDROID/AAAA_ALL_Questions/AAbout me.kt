@@ -2,51 +2,37 @@ package com.example.practiceapp.Kotlin_Android.AAAA_ALL_Questions
 
 /*
 
-self introduction
-------------------
-"Hii, good "morning , afternoon , evining " my self  Srinivas
-I have 6.5 years of experience as a software engineer
-I been working in the field of Android development for  6.5 years. During this time,
-I had the great opportunity to work on a variety of projects ,  i done so many applications,
-some are in plays tore,
-some applications are direct given to clients for installations.
+Self-Introduction
+-----------------
+Self-Introduction:
 
-i worked on  multiple domains like health care, educational applications, E-commerse
-application traveling related applications, iot related applications, telecom applications ,
-retail applications ,Logistics Applications ,
-POS (point of sale) based applications with use of  like scanners and printers.
+Hello, my name is Srinivas, and I am an Android developer with 6.5 years of experience in designing,
+developing, and optimizing mobile applications. I have extensive experience in creating complex UI
+designs using XML and Jetpack Compose, and I code proficiently in both Java and Kotlin.
 
-worked with scanners, bluetooth , pos , beacons , sensors, etc
+Throughout my career, I’ve worked on diverse projects across domains such as healthcare, education,
+e-commerce, travel, IoT, and POS systems. I have hands-on expertise in Android frameworks and libraries,
+ including Retrofit, Dagger2, Hilt, coroutines, LiveData, and Jetpack components.
 
+I specialize in building scalable, high-performance apps using clean architecture principles,
+ensuring smooth app performance and an enhanced user experience. My experience ranges from
+integrating third-party SDKs to managing end-to-end app development and publishing apps on the Play Store.
 
-I am proficient in Java and Kotlin I've also had experience working with popular Android libraries
-and frameworks Retrofit, Dagger2,Hilt, Rxjava, RxAndroid, coroutines,livedata, firebase, mvvm, Navigation,
-clean architecture
+I’m familiar with Agile methodologies, using tools like Git, Jira, and CI/CD pipelines. Collaborating
+with cross-functional teams to deliver innovative, user-friendly solutions is something I truly enjoy.
+I stay updated with the latest trends in Android development, which allows me to continuously
+improve and bring new ideas to the projects I work on.
 
-Android Architecture Components, jetpack components and I am aware
-of using project management tools like git and  jira and agile methodology and working with asure pile lines
-and testing tools like junit, mockito and Espresso.
-
-One of my strengths as a developer is my ability to collaborate effectively with cross-functional
-teams, troubleshoot issues, including designers and product managers, to deliver high-quality applications that meet
-both user needs and business goals. I also have a strong problem-solving mindset, which has allowed
-me to troubleshoot complex issues and optimize app performance.
-
-Stay up-to-date with the latest trends and advancements in Android development to suggest improvements and adopt new
-technologies when necessary.
+                            ----------------------------------------------
 
 
+ About zaggle app
+ ----------------
+Now report your expenses, manage your allowances and redeem your rewards from a single app.
+A. Expense Reporting at your finger tips!
 
-rolls and responsibility
-
-Android developers have many responsibilities, including:
-Design and develop apps
-Optimize app performance
-Collaborate with teams
-attend client calls
-scrum calls
-
-                        ----------------------------------------------
+The extremely frustrating process of collecting bills, preparing an expense report,
+submitting the report, awaiting approvals and seeking reimbursement is a thing of the past.
 
  Resume
  -------
@@ -88,9 +74,6 @@ Professional Summary
     combined with attention to detail and business process improvements.
 •	Experienced in working with small to large-scale teams with onshore/offshore models in Agile
     and Waterfall environments.
-
-
-
 
 Technical Skills
 
@@ -267,6 +250,11 @@ Responsibilities:
 •	Created multiple Product Flavors for multiple Environments.
 
 Environment:  Java, Butter Knife, REST, Webservices, Volley, Windows, SQLite, SVN , Gradle.
+
+
+own introduction :
+
+manual testing in development  phase
 
 
 

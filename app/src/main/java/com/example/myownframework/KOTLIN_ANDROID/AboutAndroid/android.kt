@@ -8,8 +8,6 @@ Android is a Linux-based operating system for mobile devices like smartphones an
 It was developed by Google and the Open Handset Alliance (OHA). Android is the world's most popular
 mobile platform, powering hundreds of millions of mobile devices in more than 190 countries.
 
-
-
 Android is based on a modified version of the Linux kernel and other open-source software. It includes
 an operating system, a GUI, a web browser, and downloadable applications.
 

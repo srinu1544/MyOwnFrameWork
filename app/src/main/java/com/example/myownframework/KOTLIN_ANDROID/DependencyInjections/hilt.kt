@@ -7,6 +7,12 @@ package com.example.myownframework.Kotlin_Android.DependencyInjections
  MyHilt refer with --  https://www.simplifiedcoding.net/android-hilt-tutorial/
                        https://www.youtube.com/watch?v=AzH18a0_Tt8&t=32s&ab_channel=SimplifiedCoding
 
+                       https://www.youtube.com/watch?v=UHsWR1syMBI&list=PLrJS8IW7z9HFg1yAfjtMly5PIjlCDMoLe&index=9&ab_channel=CharfaouiYounes
+
+https://www.youtube.com/watch?v=sklPpTf7Yj8&t=55s  --- code example
+
+
+
  Hilt :
  -------
  -> Hilt is built on top of the Dagger2
@@ -42,7 +48,7 @@ all annotations in hilt --- vvip
 @AndroidEntryPoint:
 This annotation is used to mark Android classes (activities, fragments, services, etc.)
 where you want to inject dependencies using Hilt. When you annotate an Android class
- with @AndroidEntryPoint, Hilt will inject any annotated dependencies into that class.
+with @AndroidEntryPoint, Hilt will inject any annotated dependencies into that class.
 
 
 @InstallIn:
@@ -76,6 +82,12 @@ will automatically know how to provide instances of that class.
 @HiltViewModel:
 This annotation is used to mark ViewModels to be injected by Hilt.
 It simplifies ViewModel injection in Android apps that use Hilt for dependency injection.
+
+@Qualifier :
+Consider a scenario where your application requires multiple implementations
+of the same interface or multiple instances of the same class with different
+configurations. Without qualifiers, Hilt wouldn't know which implementation to inject,
+leading to conflicts or unexpected behavior.
 
 
 
